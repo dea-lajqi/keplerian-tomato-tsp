@@ -1,5 +1,8 @@
 
-# Funksion per kontrollimin e renditjes
+from validate_dv import valid_dv
+
+
+# Funksion per kontrollimin e renditjes, a i kontrollojme te gjitha domatet
 def valid_order(order, n):
     if len(order) != n:
         return False
@@ -23,6 +26,7 @@ print("Renditja 2:", valid_order(order2, 3))
 #dt_min — kohëzgjatja minimale e fluturimit.
 #t_max — koha maksimale e misionit.
 
+#a jane kohet e udhetimeve te sakta
 def valid_times(departures, flights, t0, dt_min, t_max):
 
     # Kontrollojme numrin e udhetimeve
@@ -61,3 +65,28 @@ flights = [1, 1.5]
 
 print("Kohet jane valide:",
       valid_times(departures, flights, 0, 0.001, 200))
+
+
+def valid_solution(order, departures, flights, delta_vs, t0, dt_min, t_max, dv_max, dv_exception, E):
+
+    n = len(order)
+
+    if len(departures) != n-1 or len(flights) != n-1 or len(delta_vs) != n-1:
+        return False
+    if valid_order(order, n) is not True:
+        return False
+    if not valid_times(departures, flights, t0, dt_min, t_max):
+        return False
+    if not valid_dv(delta_vs, dv_max, dv_exception, E):
+        return False
+    return True
+
+order = [2, 0, 1]
+departures = [0, 2]
+flights = [1, 1.5]
+delta_vs = [80, 90]
+
+print(valid_solution(
+    order, departures, flights, delta_vs,
+    0, 0.001, 200, 100, 600, 5
+))

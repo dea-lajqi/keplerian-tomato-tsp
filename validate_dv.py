@@ -1,4 +1,5 @@
 
+#a respektohen kufizimet e delta v
 def valid_dv(delta_vs, dv_max, dv_exception, E):
     exceptions_used = 0
 
