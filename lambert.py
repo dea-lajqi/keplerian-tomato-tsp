@@ -189,3 +189,55 @@ def find_best_transfer(
             best_tof = tof
 
     return best_tof, best_dv, best_dv <= dv_limit
+
+
+
+import pykep as pk
+
+def compute_transfer_pykep(
+    elements1, elements2, start_day, tof_days
+):
+    """
+    Llogarit Delta-V me PyKEP.
+    Provon transferime me shume revolucione.
+    """
+
+    if tof_days <= 0:
+        return float("inf")
+
+    r1, v1 = orbital_state_at_time(elements1, start_day)
+    r2, v2 = orbital_state_at_time(
+        elements2, start_day + tof_days
+    )
+
+    best_dv = float("inf")
+
+    for cw in [False, True]:
+        try:
+            lambert = pk.lambert_problem(
+                r1, r2,
+                tof_days * DAY2SEC,
+                MU_MOON,
+                cw=cw,
+                multi_revs=20
+            )
+
+            for vt1, vt2 in zip(
+                lambert.v0,
+                lambert.v1
+            ):
+                dv_depart = np.linalg.norm(
+                    np.asarray(vt1) - v1
+                )
+
+                dv_arrive = np.linalg.norm(
+                    np.asarray(vt2) - v2
+                )
+
+                total_dv = dv_depart + dv_arrive
+                best_dv = min(best_dv, total_dv)
+
+        except (ValueError, RuntimeError, OverflowError):
+            continue
+
+    return best_dv

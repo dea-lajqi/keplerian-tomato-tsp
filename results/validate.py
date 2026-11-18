@@ -1,5 +1,5 @@
 
-from validate_dv import valid_dv
+from results.validate_dv import valid_dv
 
 
 # Funksion per kontrollimin e renditjes, a i kontrollojme te gjitha domatet

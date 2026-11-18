@@ -2,23 +2,22 @@
 from read_data import read_instance
 from orbital import orbital_state
 from lambert import compute_transfer, find_best_transfer
+import numpy as np
 
 
-# ==========================================
 # 1. FUNKSIONET BAZE TE GREEDY
-# ==========================================
-
+#Domatet qe ende si kemi vizitu
 def get_candidates(tomatoes, visited):
     return [
         i for i in range(len(tomatoes))
         if i not in visited
     ]
 
-
+#merr te dhenat orbitale te nje domateje
 def get_orbit(tomatoes, tomato_id):
     return tomatoes[tomato_id]
 
-
+#zgjedh domaten me koston me te vogel
 def choose_next_tomato(candidates, costs):
     best_tomato = None
     best_cost = float("inf")
@@ -32,7 +31,7 @@ def choose_next_tomato(candidates, costs):
 
     return best_tomato
 
-
+#perserit zgjedhjen derisa te i rendise te gjitha domatet
 def build_greedy_order(tomatoes, costs):
     visited = []
     order = []
@@ -47,10 +46,9 @@ def build_greedy_order(tomatoes, costs):
     return order
 
 
-# ==========================================
 # 2. GREEDY ME MATRICE
-# ==========================================
 
+#zgjedh domaten tjeter sipas kostos nga domatja aktuale
 def greedy_with_matrix(cost_matrix, start):
     n = len(cost_matrix)
 
@@ -78,7 +76,7 @@ def greedy_with_matrix(cost_matrix, start):
 
     return order
 
-
+#mbledhja e kostove te te gjitha kalimeve
 def total_cost(order, cost_matrix):
     total = 0
 
@@ -91,10 +89,9 @@ def total_cost(order, cost_matrix):
     return total
 
 
-# ==========================================
 # 3. MULTI-START GREEDY
-# ==========================================
 
+#provon nisje nga domate te ndryshme 
 def multi_start_greedy(cost_matrix):
     n = len(cost_matrix)
 
@@ -118,10 +115,9 @@ def multi_start_greedy(cost_matrix):
     return best_order, best_cost
 
 
-# ==========================================
 # 4. LOCAL SEARCH
-# ==========================================
 
+#i nderron vendet dy domateve ne renditje
 def swap_tomatoes(order, i, j):
     new_order = order.copy()
 
@@ -131,7 +127,7 @@ def swap_tomatoes(order, i, j):
 
     return new_order
 
-
+#provon ndrerrime me permiresu rezultatin
 def local_search(order, cost_matrix):
     best_order = order.copy()
     best_cost = total_cost(best_order, cost_matrix)
@@ -160,9 +156,7 @@ def local_search(order, cost_matrix):
     return best_order, best_cost
 
 
-# ==========================================
 # 5. TESTIMI I GREEDY DHE LOCAL SEARCH
-# ==========================================
 
 def test_algorithm():
     cost_matrix = [
@@ -187,9 +181,7 @@ def test_algorithm():
     print("Kostoja pas Local Search:", new_cost)
 
 
-# ==========================================
 # 6. TESTIMI ME TE DHENAT REALE TE ESA-S
-# ==========================================
 
 def test_real_orbit():
 
@@ -208,9 +200,7 @@ def test_real_orbit():
     print("Koha maksimale e misionit:", t_max)
     print("Kufiri Delta-V:", dv_max)
 
-    # --------------------------------------
     # POZICIONI DHE SHPEJTESIA
-    # --------------------------------------
 
     a, e, inc, omega_node, omega_peri, M = tomatoes[0]
 
@@ -222,9 +212,7 @@ def test_real_orbit():
     print("Pozicioni:", position)
     print("Shpejtesia:", velocity)
 
-    # --------------------------------------
     # TESTI I PARE LAMBERT
-    # --------------------------------------
 
     dv = compute_transfer(
         tomatoes[0],
@@ -238,9 +226,7 @@ def test_real_orbit():
     print("Kufiri:", dv_max, "m/s")
     print("Brenda kufirit:", dv <= dv_max)
 
-    # --------------------------------------
     # KERKIMI I KOHES ME TE MIRE
-    # --------------------------------------
 
     best_tof, best_dv, feasible = find_best_transfer(
         tomatoes[0],
@@ -258,10 +244,104 @@ def test_real_orbit():
     print("Brenda kufirit:", feasible)
 
 
-# ==========================================
+
+def search_next_tomato(tomatoes, current, visited,
+                       current_time, dt_min, dv_max,
+                       max_tof=5.0, steps=30):
+
+    best_tomato = None
+    best_arrival = float("inf")
+    best_tof = None
+    best_dv = None
+
+    for target in range(len(tomatoes)):
+
+        if target in visited:
+            continue
+
+        for tof in np.linspace(dt_min, max_tof, steps):
+
+            dv = compute_transfer(
+                tomatoes[current],
+                tomatoes[target],
+                start_day=current_time,
+                tof_days=float(tof)
+            )
+
+            if dv <= dv_max:
+                arrival = current_time + tof
+
+                if arrival < best_arrival:
+                    best_tomato = target
+                    best_arrival = arrival
+                    best_tof = tof
+                    best_dv = dv
+
+                break
+
+    return best_tomato, best_arrival, best_tof, best_dv
+
+
+def greedy_real(tomatoes, t0, dt_min, t_max, dv_max,
+                start=0, max_tof=5.0, steps=30):
+
+    order = [start]
+    visited = {start}
+    current = start
+    current_time = t0
+
+    while len(visited) < len(tomatoes):
+
+        target, arrival, tof, dv = search_next_tomato(
+            tomatoes, current, visited,
+            current_time, dt_min, dv_max,
+            max_tof=max_tof, steps=steps
+        )
+
+        if target is None:
+            print("Nuk u gjet transferim i vlefshem.")
+            break
+
+        if arrival - t0 > t_max:
+            print("U tejkalua koha maksimale e misionit.")
+            break
+
+        order.append(target)
+        visited.add(target)
+
+        print(
+            "Domatja:", target,
+            "| Koha:", round(arrival, 4),
+            "| Delta-V:", round(dv, 2)
+        )
+
+        current = target
+        current_time = arrival
+
+    return order, current_time
+
+
 # 7. EKZEKUTIMI
-# ==========================================
 
 if __name__ == "__main__":
     test_algorithm()
     test_real_orbit()
+    print("\nGREEDY ME DOMATE REALE")
+
+    data = read_instance("data/easy.kttsp")
+    tomatoes, t0, dt_min, t_max, dv_max, dv_exception, E = data
+
+    order, finish_time = greedy_real(
+        tomatoes[:5],
+        t0,
+        dt_min,
+        t_max,
+        dv_max,
+        start=0,
+        max_tof=5.0,
+        steps=30
+    )
+
+    print("Renditja:", order)
+    print("Domate te vizituara:", len(order), "/ 5")
+    print("Koha e fundit:", finish_time)
