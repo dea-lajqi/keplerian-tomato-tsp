@@ -28,11 +28,11 @@ RESULTS = Path("results")
 RESULTS.mkdir(exist_ok=True)
 
 SOURCE = RESULTS / "KTTSP_42_verified.json"
-OUTPUT = RESULTS / "KTTSP_NEW_BEST.json"
+OUTPUT = RESULTS / "KTTSP_43_candidate.json"
 
-TIME_LIMIT = 120
-BEAM_WIDTH = 35
-BACKTRACK = 15
+TIME_LIMIT = 180
+BEAM_WIDTH = 60
+BACKTRACK = 22
 
 
 # =========================

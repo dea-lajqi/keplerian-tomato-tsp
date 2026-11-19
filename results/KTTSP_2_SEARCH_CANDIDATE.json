@@ -1,0 +1,19 @@
+{
+  "path": [
+    15,
+    28
+  ],
+  "transfers": [
+    [
+      15,
+      28,
+      0.0,
+      0.5,
+      60.27230474347165
+    ]
+  ],
+  "arrival": 0.5,
+  "exceptions": 0,
+  "verified_pykep": true,
+  "verified_official": false
+}

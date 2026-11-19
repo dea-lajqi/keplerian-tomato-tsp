@@ -1,0 +1,33 @@
+{
+  "backup": "backups\\KTTSP_BEFORE_ORGANIZE_20261119_210807.zip",
+  "date": "2026-11-19T21:08:09",
+  "moved": [
+    "convert_easy_for_pdf_solver.py",
+    "insert_all_edges.py",
+    "kttsp_43_search.py",
+    "kttsp_46_from183.py",
+    "kttsp_46_search.py",
+    "kttsp_47_beam_restart.py",
+    "kttsp_47_from46_proven.py",
+    "kttsp_47_precision.py",
+    "kttsp_47_search.py",
+    "kttsp_49_search.py",
+    "kttsp_bridge_scan.py",
+    "kttsp_day183_next.py",
+    "kttsp_inner47.py",
+    "kttsp_inner_chain_test.py",
+    "kttsp_lns_search.py",
+    "kttsp_missing_diagnostic.py",
+    "kttsp_pdf_47_escape.py",
+    "kttsp_pdf_rebuild.py",
+    "kttsp_polar47_attempt.py",
+    "kttsp_search_until_49 (1).py",
+    "kttsp_tail_targeted.py",
+    "kttsp_window47.py",
+    "multi_start_45.py",
+    "optimize_last_exception.py",
+    "pdf_local_search.py",
+    "targeted_45.py",
+    "validate_46_fast.py"
+  ]
+}
