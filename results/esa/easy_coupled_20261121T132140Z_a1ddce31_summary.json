@@ -1,0 +1,352 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "distinct sweep complete",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "distinct_shift_tests": 25,
+    "propagated_events": 118,
+    "esa_checks": 1326,
+    "esa_feasible": 1104,
+    "esa_rejected": 222,
+    "duplicates": 273,
+    "repeated_events": 39
+  },
+  "attempts": [
+    {
+      "mode": "shift",
+      "iteration": 0,
+      "pivot": 29,
+      "edge": [
+        4,
+        19
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 29,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 1,
+      "pivot": 26,
+      "edge": [
+        37,
+        11
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 26,
+      "reachable_events": 3
+    },
+    {
+      "mode": "shift",
+      "iteration": 2,
+      "pivot": 19,
+      "edge": [
+        29,
+        45
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 19,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 3,
+      "pivot": 8,
+      "edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 8,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 4,
+      "pivot": 41,
+      "edge": [
+        7,
+        3
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 41,
+      "reachable_events": 10
+    },
+    {
+      "mode": "shift",
+      "iteration": 5,
+      "pivot": 17,
+      "edge": [
+        31,
+        30
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 17,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 6,
+      "pivot": 27,
+      "edge": [
+        11,
+        17
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 27,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 7,
+      "pivot": 45,
+      "edge": [
+        14,
+        32
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.005859375,
+      "prefix_depth": 45,
+      "reachable_events": 5
+    },
+    {
+      "mode": "shift",
+      "iteration": 8,
+      "pivot": 20,
+      "edge": [
+        45,
+        15
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 20,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 9,
+      "pivot": 37,
+      "edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 37,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 10,
+      "pivot": 14,
+      "edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.001953125,
+      "prefix_depth": 14,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 11,
+      "pivot": 30,
+      "edge": [
+        19,
+        43
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 30,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 12,
+      "pivot": 29,
+      "edge": [
+        4,
+        19
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 29,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 13,
+      "pivot": 26,
+      "edge": [
+        37,
+        11
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.001953125,
+      "prefix_depth": 26,
+      "reachable_events": 3
+    },
+    {
+      "mode": "shift",
+      "iteration": 14,
+      "pivot": 19,
+      "edge": [
+        29,
+        45
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 19,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 15,
+      "pivot": 8,
+      "edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 8,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 16,
+      "pivot": 41,
+      "edge": [
+        7,
+        3
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 41,
+      "reachable_events": 10
+    },
+    {
+      "mode": "shift",
+      "iteration": 17,
+      "pivot": 17,
+      "edge": [
+        31,
+        30
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 17,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 18,
+      "pivot": 27,
+      "edge": [
+        11,
+        17
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 27,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 19,
+      "pivot": 45,
+      "edge": [
+        14,
+        32
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 45,
+      "reachable_events": 5
+    },
+    {
+      "mode": "shift",
+      "iteration": 20,
+      "pivot": 20,
+      "edge": [
+        45,
+        15
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 20,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 21,
+      "pivot": 37,
+      "edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 37,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 22,
+      "pivot": 14,
+      "edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.005859375,
+      "prefix_depth": 14,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 23,
+      "pivot": 30,
+      "edge": [
+        19,
+        43
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 30,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 24,
+      "pivot": 29,
+      "edge": [
+        4,
+        19
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 29,
+      "reachable_events": 4
+    }
+  ],
+  "elapsed_seconds": 147.95528735599873
+}

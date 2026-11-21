@@ -1,0 +1,166 @@
+{
+  "mode": "clusters",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "best_days": 111.75601410476435,
+  "best_changed_order_days": 111.75601410476435,
+  "stop": "cluster order sweep complete",
+  "counts": {
+    "attempts": 12,
+    "distinct_route_timing": 75,
+    "checked": 86,
+    "feasible": 86,
+    "changed_order": 83
+  },
+  "attempts": [
+    {
+      "mode": "clusters",
+      "iteration": 0,
+      "cluster": 0,
+      "window": [
+        0,
+        3
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0
+    },
+    {
+      "mode": "clusters",
+      "iteration": 1,
+      "cluster": 1,
+      "window": [
+        27,
+        30
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0
+    },
+    {
+      "mode": "clusters",
+      "iteration": 2,
+      "cluster": 2,
+      "window": [
+        46,
+        49
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0
+    },
+    {
+      "mode": "clusters",
+      "iteration": 3,
+      "cluster": 0,
+      "window": [
+        0,
+        3
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625
+    },
+    {
+      "mode": "clusters",
+      "iteration": 4,
+      "cluster": 1,
+      "window": [
+        27,
+        30
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625
+    },
+    {
+      "mode": "clusters",
+      "iteration": 5,
+      "cluster": 2,
+      "window": [
+        46,
+        49
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625
+    },
+    {
+      "mode": "clusters",
+      "iteration": 6,
+      "cluster": 0,
+      "window": [
+        0,
+        3
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125
+    },
+    {
+      "mode": "clusters",
+      "iteration": 7,
+      "cluster": 1,
+      "window": [
+        27,
+        30
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125
+    },
+    {
+      "mode": "clusters",
+      "iteration": 8,
+      "cluster": 2,
+      "window": [
+        46,
+        49
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125
+    },
+    {
+      "mode": "clusters",
+      "iteration": 9,
+      "cluster": 0,
+      "window": [
+        0,
+        3
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0234375
+    },
+    {
+      "mode": "clusters",
+      "iteration": 10,
+      "cluster": 1,
+      "window": [
+        27,
+        30
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0234375
+    },
+    {
+      "mode": "clusters",
+      "iteration": 11,
+      "cluster": 2,
+      "window": [
+        46,
+        49
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0234375
+    }
+  ],
+  "anchor_seeds": [
+    "results/esa/easy_coupled_20261121T132608Z_d792ec17_0002.json"
+  ],
+  "anchor_atlases": [
+    "results/esa/easy_focus_20261121T131235Z_862089cb_summary.json"
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 56.376011916996504
+}

@@ -1,0 +1,110 @@
+{
+  "seed": "results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "time budget",
+  "best_official_days": 111.75601410476435,
+  "counts": {
+    "dag_labels": 20063,
+    "duplicates": 41,
+    "esa_checks": 34,
+    "esa_feasible": 34,
+    "distinct_feasible": 24,
+    "changed_order": 26
+  },
+  "attempts": [
+    {
+      "mode": "diverse",
+      "iteration": 0,
+      "window": [
+        13,
+        31
+      ],
+      "static_orders": 24536,
+      "labels_per_state": 3,
+      "subset_labels": 4191,
+      "subset_depth": 18,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410493682
+    },
+    {
+      "mode": "diverse",
+      "iteration": 1,
+      "window": [
+        17,
+        34
+      ],
+      "static_orders": 16184,
+      "labels_per_state": 3,
+      "subset_labels": 3472,
+      "subset_depth": 17,
+      "timed_orders": 3,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "diverse",
+      "iteration": 2,
+      "window": [
+        14,
+        32
+      ],
+      "static_orders": 22794,
+      "labels_per_state": 3,
+      "subset_labels": 4087,
+      "subset_depth": 18,
+      "timed_orders": 3,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "diverse",
+      "iteration": 3,
+      "window": [
+        15,
+        31
+      ],
+      "static_orders": 24537,
+      "labels_per_state": 3,
+      "subset_labels": 4178,
+      "subset_depth": 16,
+      "timed_orders": 1,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "diverse",
+      "iteration": 4,
+      "window": [
+        18,
+        33
+      ],
+      "static_orders": 16984,
+      "labels_per_state": 3,
+      "subset_labels": 4135,
+      "subset_depth": 15,
+      "timed_orders": 3,
+      "maximum_depth": 48,
+      "best_accepted": 111.88533418929075
+    },
+    {
+      "mode": "diverse",
+      "iteration": 5,
+      "window": [
+        18,
+        36
+      ],
+      "static_orders": 12017,
+      "labels_per_state": 3
+    }
+  ],
+  "elapsed_seconds": 585.014252246001
+}

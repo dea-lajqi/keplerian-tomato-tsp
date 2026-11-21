@@ -1,0 +1,339 @@
+{
+  "seed": "results/esa/easy_coupled_20261121T132608Z_d792ec17_0002.json",
+  "baseline": {
+    "fitness": [
+      111.76542812054207,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "distinct sweep complete",
+  "best_official_days": 111.75601410493402,
+  "counts": {
+    "distinct_shift_tests": 24,
+    "propagated_events": 130,
+    "esa_checks": 266,
+    "esa_feasible": 266,
+    "duplicates": 172,
+    "records": 1,
+    "repeated_events": 38
+  },
+  "attempts": [
+    {
+      "mode": "shift",
+      "iteration": 0,
+      "pivot": 29,
+      "edge": [
+        4,
+        19
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 29,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 1,
+      "pivot": 26,
+      "edge": [
+        9,
+        11
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 26,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 2,
+      "pivot": 19,
+      "edge": [
+        30,
+        29
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 19,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 3,
+      "pivot": 8,
+      "edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 8,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 4,
+      "pivot": 41,
+      "edge": [
+        7,
+        3
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 41,
+      "reachable_events": 11
+    },
+    {
+      "mode": "shift",
+      "iteration": 5,
+      "pivot": 17,
+      "edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 17,
+      "reachable_events": 5
+    },
+    {
+      "mode": "shift",
+      "iteration": 6,
+      "pivot": 27,
+      "edge": [
+        11,
+        17
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 27,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 7,
+      "pivot": 45,
+      "edge": [
+        14,
+        32
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.005859375,
+      "prefix_depth": 45,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 8,
+      "pivot": 20,
+      "edge": [
+        29,
+        45
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 20,
+      "reachable_events": 6
+    },
+    {
+      "mode": "shift",
+      "iteration": 9,
+      "pivot": 37,
+      "edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 37,
+      "reachable_events": 11
+    },
+    {
+      "mode": "shift",
+      "iteration": 10,
+      "pivot": 14,
+      "edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.001953125,
+      "prefix_depth": 14,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 11,
+      "pivot": 30,
+      "edge": [
+        19,
+        43
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 30,
+      "reachable_events": 10
+    },
+    {
+      "mode": "shift",
+      "iteration": 12,
+      "pivot": 29,
+      "edge": [
+        4,
+        19
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 29,
+      "reachable_events": 5
+    },
+    {
+      "mode": "shift",
+      "iteration": 13,
+      "pivot": 26,
+      "edge": [
+        9,
+        11
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.001953125,
+      "prefix_depth": 26,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 14,
+      "pivot": 19,
+      "edge": [
+        30,
+        29
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 19,
+      "reachable_events": 4
+    },
+    {
+      "mode": "shift",
+      "iteration": 15,
+      "pivot": 8,
+      "edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 8,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 16,
+      "pivot": 41,
+      "edge": [
+        7,
+        3
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 41,
+      "reachable_events": 13
+    },
+    {
+      "mode": "shift",
+      "iteration": 17,
+      "pivot": 17,
+      "edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 17,
+      "reachable_events": 5
+    },
+    {
+      "mode": "shift",
+      "iteration": 18,
+      "pivot": 27,
+      "edge": [
+        11,
+        17
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "prefix_depth": 27,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 19,
+      "pivot": 45,
+      "edge": [
+        14,
+        32
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 45,
+      "reachable_events": 8
+    },
+    {
+      "mode": "shift",
+      "iteration": 20,
+      "pivot": 20,
+      "edge": [
+        29,
+        45
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0078125,
+      "prefix_depth": 20,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 21,
+      "pivot": 37,
+      "edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "prefix_depth": 37,
+      "reachable_events": 11
+    },
+    {
+      "mode": "shift",
+      "iteration": 22,
+      "pivot": 14,
+      "edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.005859375,
+      "prefix_depth": 14,
+      "reachable_events": 7
+    },
+    {
+      "mode": "shift",
+      "iteration": 23,
+      "pivot": 30,
+      "edge": [
+        19,
+        43
+      ],
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.0,
+      "prefix_depth": 30,
+      "reachable_events": 10
+    }
+  ],
+  "elapsed_seconds": 80.34706708999875
+}

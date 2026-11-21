@@ -1,0 +1,346 @@
+{
+  "mode": "frontier",
+  "baseline": {
+    "fitness": [
+      112.9949562939285,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T130436Z_311bfed4_0009.json",
+  "best_days": 112.9949562939285,
+  "best_changed_order_days": 113.328125,
+  "stop": "stagnation",
+  "counts": {
+    "attempts": 19,
+    "distinct_route_timing": 12,
+    "checked": 12,
+    "feasible": 12,
+    "changed_order": 11
+  },
+  "attempts": [
+    {
+      "mode": "frontier",
+      "iteration": 0,
+      "window": [
+        0,
+        10
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 10,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 1,
+      "window": [
+        38,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 11,
+      "orders": 2,
+      "best_accepted": 113.46875
+    },
+    {
+      "mode": "frontier",
+      "iteration": 2,
+      "window": [
+        17,
+        31
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 1,
+      "best_accepted": 120.640625
+    },
+    {
+      "mode": "frontier",
+      "iteration": 3,
+      "window": [
+        18,
+        34
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 16,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 4,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 5,
+      "window": [
+        35,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 2,
+      "best_accepted": 113.328125
+    },
+    {
+      "mode": "frontier",
+      "iteration": 6,
+      "window": [
+        16,
+        34
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 18,
+      "orders": 1,
+      "best_accepted": 123.375
+    },
+    {
+      "mode": "frontier",
+      "iteration": 7,
+      "window": [
+        18,
+        31
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 13,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 8,
+      "window": [
+        15,
+        33
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 9,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 10,
+      "window": [
+        0,
+        10
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 10,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 11,
+      "window": [
+        38,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 11,
+      "orders": 2,
+      "best_accepted": 120.1640625
+    },
+    {
+      "mode": "frontier",
+      "iteration": 12,
+      "window": [
+        17,
+        31
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 14,
+      "orders": 1,
+      "best_accepted": 116.125
+    },
+    {
+      "mode": "frontier",
+      "iteration": 13,
+      "window": [
+        18,
+        34
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 16,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 14,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 15,
+      "window": [
+        35,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 14,
+      "orders": 2,
+      "best_accepted": 114.34375
+    },
+    {
+      "mode": "frontier",
+      "iteration": 16,
+      "window": [
+        16,
+        34
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 1,
+      "best_accepted": 122.234375
+    },
+    {
+      "mode": "frontier",
+      "iteration": 17,
+      "window": [
+        18,
+        31
+      ],
+      "focus_edge": [
+        9,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 13,
+      "orders": 0
+    },
+    {
+      "mode": "frontier",
+      "iteration": 18,
+      "window": [
+        15,
+        33
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 15,
+      "orders": 0
+    }
+  ],
+  "anchor_seeds": [
+    "results/esa/easy_focus_20261121T130313Z_86c141b2_0005.json"
+  ],
+  "anchor_atlases": [
+    "results/esa/easy_focus_20261121T130313Z_86c141b2_summary.json"
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 353.7261978669994
+}

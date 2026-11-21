@@ -1,0 +1,153 @@
+{
+  "instance": "medium",
+  "budget_seconds": 20.0,
+  "baseline_validation": {
+    "fitness": [
+      214.25,
+      0.0,
+      0.0,
+      0.0,
+      11.0
+    ],
+    "valid": false
+  },
+  "attempts": [
+    {
+      "reverse": false,
+      "step_days": 0.25,
+      "prefer_original": true,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          295.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 0.831
+    },
+    {
+      "reverse": false,
+      "step_days": 0.25,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          295.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 1.692
+    },
+    {
+      "reverse": false,
+      "step_days": 0.125,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          249.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 3.039
+    },
+    {
+      "reverse": false,
+      "step_days": 0.0625,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          202.8125,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 5.878
+    },
+    {
+      "reverse": true,
+      "step_days": 0.25,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          376.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 7.042
+    },
+    {
+      "reverse": true,
+      "step_days": 0.25,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          376.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 8.219
+    },
+    {
+      "reverse": true,
+      "step_days": 0.125,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          334.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 10.739
+    },
+    {
+      "reverse": true,
+      "step_days": 0.0625,
+      "prefer_original": false,
+      "scheduled_visits": 181,
+      "validation": {
+        "fitness": [
+          305.8125,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "elapsed_seconds": 15.488
+    }
+  ],
+  "best_official_days": 202.8125
+}

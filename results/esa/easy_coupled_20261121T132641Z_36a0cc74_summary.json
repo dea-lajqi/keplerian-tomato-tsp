@@ -1,0 +1,89 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "distinct sweep complete",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "adaptive_timing_passes": 8,
+    "esa_checks": 237,
+    "esa_feasible": 205,
+    "esa_rejected": 32,
+    "duplicates": 6
+  },
+  "attempts": [
+    {
+      "mode": "timing",
+      "iteration": 0,
+      "grid_days": 0.0234375,
+      "grid_phase_days": 0.01171875,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 1,
+      "grid_days": 0.01953125,
+      "grid_phase_days": 0.0048828125,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 2,
+      "grid_days": 0.01171875,
+      "grid_phase_days": 0.005859375,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 3,
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 4,
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.001953125,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 5,
+      "grid_days": 0.013671875,
+      "grid_phase_days": 0.005126953125,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 6,
+      "grid_days": 0.009765625,
+      "grid_phase_days": 0.006103515625,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "timing",
+      "iteration": 7,
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.001953125,
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    }
+  ],
+  "elapsed_seconds": 146.40207318000103
+}

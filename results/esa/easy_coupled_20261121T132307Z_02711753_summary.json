@@ -1,0 +1,199 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "distinct sweep complete",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "distinct_reverse_windows": 11,
+    "reverse_timed_subsets": 10,
+    "esa_checks": 35,
+    "esa_feasible": 31,
+    "changed_order": 10,
+    "esa_rejected": 4,
+    "duplicates": 1
+  },
+  "attempts": [
+    {
+      "mode": "mirror",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "reverse_finish_day": 112.92601854004677,
+      "reverse_grid_days": 0.0625,
+      "forward_labels": 2,
+      "subset_depth": 14,
+      "maximum_depth": 48,
+      "best_accepted": 116.09375
+    },
+    {
+      "mode": "mirror",
+      "iteration": 1,
+      "window": [
+        16,
+        32
+      ],
+      "reverse_finish_day": 113.12601854004677,
+      "reverse_grid_days": 0.03125,
+      "forward_labels": 2,
+      "subset_depth": 16,
+      "maximum_depth": 48,
+      "best_accepted": 117.1640625
+    },
+    {
+      "mode": "mirror",
+      "iteration": 2,
+      "window": [
+        18,
+        31
+      ],
+      "reverse_finish_day": 113.56601854004677,
+      "reverse_grid_days": 0.046875,
+      "forward_labels": 2,
+      "subset_depth": 13,
+      "maximum_depth": 48,
+      "best_accepted": 116.09765625
+    },
+    {
+      "mode": "mirror",
+      "iteration": 3,
+      "window": [
+        15,
+        33
+      ],
+      "reverse_finish_day": 112.92601854004677,
+      "reverse_grid_days": 0.03125,
+      "forward_labels": 2,
+      "subset_depth": 18,
+      "maximum_depth": 48,
+      "best_accepted": 124.3125
+    },
+    {
+      "mode": "mirror",
+      "iteration": 4,
+      "window": [
+        19,
+        34
+      ],
+      "reverse_finish_day": 116.37375,
+      "reverse_grid_days": 0.0625,
+      "forward_labels": 2,
+      "subset_depth": 15,
+      "maximum_depth": 48,
+      "best_accepted": 124.0859375
+    },
+    {
+      "mode": "mirror",
+      "iteration": 5,
+      "window": [
+        14,
+        31
+      ],
+      "reverse_finish_day": 113.56601854004677,
+      "reverse_grid_days": 0.03125,
+      "forward_labels": 2,
+      "subset_depth": 17,
+      "maximum_depth": 48,
+      "best_accepted": 115.23828125
+    },
+    {
+      "mode": "mirror",
+      "iteration": 6,
+      "window": [
+        18,
+        35
+      ],
+      "reverse_finish_day": 112.92601854004677,
+      "reverse_grid_days": 0.046875,
+      "forward_labels": 2,
+      "subset_depth": 14
+    },
+    {
+      "mode": "mirror",
+      "iteration": 7,
+      "window": [
+        13,
+        30
+      ],
+      "reverse_finish_day": 113.12601854004677,
+      "reverse_grid_days": 0.03125,
+      "forward_labels": 2,
+      "subset_depth": 17,
+      "maximum_depth": 48,
+      "best_accepted": 114.9765625
+    },
+    {
+      "mode": "mirror",
+      "iteration": 8
+    },
+    {
+      "mode": "mirror",
+      "iteration": 9,
+      "window": [
+        16,
+        32
+      ],
+      "reverse_finish_day": 113.47029136546536,
+      "reverse_grid_days": 0.03125,
+      "forward_labels": 2,
+      "subset_depth": 16,
+      "maximum_depth": 48,
+      "best_accepted": 117.0625
+    },
+    {
+      "mode": "mirror",
+      "iteration": 10
+    },
+    {
+      "mode": "mirror",
+      "iteration": 11
+    },
+    {
+      "mode": "mirror",
+      "iteration": 12,
+      "window": [
+        19,
+        34
+      ],
+      "reverse_finish_day": 113.12601854004677,
+      "reverse_grid_days": 0.0625,
+      "forward_labels": 2,
+      "subset_depth": 15,
+      "best_accepted": 112.84601854004677,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "mirror",
+      "iteration": 13
+    },
+    {
+      "mode": "mirror",
+      "iteration": 14,
+      "window": [
+        18,
+        35
+      ],
+      "reverse_finish_day": 116.17375,
+      "reverse_grid_days": 0.046875,
+      "forward_labels": 2,
+      "subset_depth": 17,
+      "maximum_depth": 48,
+      "best_accepted": 116.09375
+    },
+    {
+      "mode": "mirror",
+      "iteration": 15
+    }
+  ],
+  "elapsed_seconds": 570.642564496
+}

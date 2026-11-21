@@ -1,0 +1,157 @@
+{
+  "mode": "meet",
+  "baseline": {
+    "fitness": [
+      116.00535136677631,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T125413Z_c5169852_0003.json",
+  "best_days": 116.00535136677631,
+  "best_changed_order_days": null,
+  "stop": "split and deadline sweep complete",
+  "counts": {
+    "attempts": 12,
+    "near_join_refinements": 3
+  },
+  "attempts": [
+    {
+      "mode": "meet",
+      "iteration": 0,
+      "split_index": 8,
+      "split_tomato": 25,
+      "target_days": 115.65535136677632,
+      "grid_days": 0.03125,
+      "forward_depth": 8,
+      "backward_depth": 40,
+      "minimum_join_gap_days": 1.4887369268939548
+    },
+    {
+      "mode": "meet",
+      "iteration": 1,
+      "split_index": 36,
+      "split_tomato": 24,
+      "target_days": 115.5553513667763,
+      "grid_days": 0.03125,
+      "forward_depth": 36,
+      "backward_depth": 12,
+      "minimum_join_gap_days": 0.5631064369067929
+    },
+    {
+      "mode": "meet",
+      "iteration": 2,
+      "split_index": 20,
+      "split_tomato": 4,
+      "target_days": 115.75535136677631,
+      "grid_days": 0.015625,
+      "forward_depth": 20,
+      "backward_depth": 28,
+      "minimum_join_gap_days": 0.839115046405432
+    },
+    {
+      "mode": "meet",
+      "iteration": 3,
+      "split_index": 30,
+      "split_tomato": 19,
+      "target_days": 115.20535136677631,
+      "grid_days": 0.03125,
+      "forward_depth": 30,
+      "backward_depth": 18,
+      "minimum_join_gap_days": 0.09216383123801108
+    },
+    {
+      "mode": "meet",
+      "iteration": 4,
+      "split_index": 42,
+      "split_tomato": 3,
+      "target_days": 115.87535136677631,
+      "grid_days": 0.03125,
+      "forward_depth": 42,
+      "backward_depth": 6,
+      "minimum_join_gap_days": 0.15603710858970032
+    },
+    {
+      "mode": "meet",
+      "iteration": 5,
+      "split_index": 8,
+      "split_tomato": 25,
+      "target_days": 114.50535136677631,
+      "grid_days": 0.015625,
+      "forward_depth": 8,
+      "backward_depth": 40,
+      "minimum_join_gap_days": 1.4746744268939604
+    },
+    {
+      "mode": "meet",
+      "iteration": 6,
+      "split_index": 36,
+      "split_tomato": 24,
+      "target_days": 115.90535136677632,
+      "grid_days": 0.015625,
+      "forward_depth": 36,
+      "backward_depth": 12,
+      "minimum_join_gap_days": 0.5568564369067843
+    },
+    {
+      "mode": "meet",
+      "iteration": 7,
+      "split_index": 20,
+      "split_tomato": 4,
+      "target_days": 113.50535136677631,
+      "grid_days": 0.03125,
+      "forward_depth": 20,
+      "backward_depth": 28,
+      "minimum_join_gap_days": 2.760990046405432
+    },
+    {
+      "mode": "meet",
+      "iteration": 8,
+      "split_index": 30,
+      "split_tomato": 19,
+      "target_days": 115.95535136677631,
+      "grid_days": 0.015625,
+      "forward_depth": 30,
+      "backward_depth": 18,
+      "minimum_join_gap_days": 0.07653883123801108
+    },
+    {
+      "mode": "meet",
+      "iteration": 9,
+      "split_index": 42,
+      "split_tomato": 3,
+      "target_days": 115.1053513667763,
+      "grid_days": 0.015625,
+      "forward_depth": 42,
+      "backward_depth": 6,
+      "minimum_join_gap_days": 0.7619746085897106
+    },
+    {
+      "mode": "meet",
+      "iteration": 10,
+      "split_index": 30,
+      "split_tomato": 19,
+      "target_days": 111.00535136677631,
+      "grid_days": 0.03125,
+      "forward_depth": 30,
+      "backward_depth": 18,
+      "minimum_join_gap_days": 4.776538831238014
+    },
+    {
+      "mode": "meet",
+      "iteration": 11,
+      "split_index": 20,
+      "split_tomato": 4,
+      "target_days": 106.00535136677631,
+      "grid_days": 0.03125,
+      "forward_depth": 20,
+      "backward_depth": 28,
+      "minimum_join_gap_days": 9.917240046405432
+    }
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 45.63285941399954
+}

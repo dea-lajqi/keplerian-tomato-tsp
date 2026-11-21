@@ -1,0 +1,148 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "time budget",
+  "best_official_days": 111.7560141049379,
+  "counts": {
+    "dag_labels": 14240,
+    "esa_checks": 31,
+    "esa_feasible": 29,
+    "changed_order": 29,
+    "records": 3,
+    "duplicates": 29,
+    "esa_rejected": 2
+  },
+  "attempts": [
+    {
+      "mode": "dag",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24240,
+      "subset_labels": 2004,
+      "subset_depth": 14,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.76542812054207
+    },
+    {
+      "mode": "dag",
+      "iteration": 1,
+      "window": [
+        16,
+        32
+      ],
+      "static_orders": 22794,
+      "subset_labels": 1737,
+      "subset_depth": 16,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.7560141049379
+    },
+    {
+      "mode": "dag",
+      "iteration": 2,
+      "window": [
+        15,
+        33
+      ],
+      "static_orders": 19205,
+      "subset_labels": 1741,
+      "subset_depth": 18,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.7560141049379
+    },
+    {
+      "mode": "dag",
+      "iteration": 3,
+      "window": [
+        18,
+        31
+      ],
+      "static_orders": 24537,
+      "subset_labels": 1793,
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.7560141049379
+    },
+    {
+      "mode": "dag",
+      "iteration": 4,
+      "window": [
+        16,
+        34
+      ],
+      "static_orders": 14089,
+      "subset_labels": 1759,
+      "subset_depth": 18,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.88533418927416
+    },
+    {
+      "mode": "dag",
+      "iteration": 5,
+      "window": [
+        17,
+        35
+      ],
+      "static_orders": 13934,
+      "subset_labels": 1669,
+      "subset_depth": 18,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.7560141049379
+    },
+    {
+      "mode": "dag",
+      "iteration": 6,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24537,
+      "subset_labels": 1795,
+      "subset_depth": 14,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.7560141049379
+    },
+    {
+      "mode": "dag",
+      "iteration": 7,
+      "window": [
+        16,
+        32
+      ],
+      "static_orders": 22794,
+      "subset_labels": 1742,
+      "subset_depth": 16,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.7560141049379
+    },
+    {
+      "mode": "dag",
+      "iteration": 8,
+      "window": [
+        15,
+        33
+      ],
+      "static_orders": 19205
+    }
+  ],
+  "elapsed_seconds": 620.007069542
+}

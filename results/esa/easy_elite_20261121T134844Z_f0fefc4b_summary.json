@@ -1,0 +1,413 @@
+{
+  "mode": "graph",
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "elite_pool": [
+    {
+      "file": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "days": 111.75601410476435,
+      "flight_days": 105.09336149625061,
+      "directed_edges_changed": 0,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120519Z_9fe9de3e_0001.json",
+      "days": 118.5,
+      "flight_days": 111.54428409827855,
+      "directed_edges_changed": 13,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_e97d8883_0008.json",
+      "days": 113.19029136546536,
+      "flight_days": 106.08993454067817,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125302Z_8203d875_0001.json",
+      "days": 117.03026706879305,
+      "flight_days": 109.41194825595673,
+      "directed_edges_changed": 10,
+      "shell_crossings": [
+        [
+          23,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_86c141b2_0005.json",
+      "days": 114.3069094916195,
+      "flight_days": 107.12838296112379,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125413Z_c5169852_0003.json",
+      "days": 116.00535136677631,
+      "flight_days": 108.95375635351324,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          11,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T131107Z_9a9af22e_0005.json",
+      "days": 112.84601854004677,
+      "flight_days": 105.59629691606023,
+      "directed_edges_changed": 3,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130436Z_311bfed4_0009.json",
+      "days": 112.9949562939285,
+      "flight_days": 105.82428617944312,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130038Z_58e3a3e5_0002.json",
+      "days": 113.5703125,
+      "flight_days": 106.4487817591289,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120045Z_0ee67f24_0002.json",
+      "days": 120.10502666875072,
+      "flight_days": 112.71383301642618,
+      "directed_edges_changed": 12,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          4,
+          45
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    }
+  ],
+  "archived_files_validated": 86,
+  "stop": "distinct trial sweep complete",
+  "counts": {
+    "joint_graph_labels": 5223,
+    "combined_orders": 138,
+    "esa_checks": 1502,
+    "esa_feasible": 1297,
+    "new_orders": 6,
+    "distinct_feasible": 517,
+    "deduplicated": 1457,
+    "esa_rejected": 205,
+    "records": 1
+  },
+  "best_official_days": 111.75601410472474,
+  "elapsed_seconds": 270.50146679599857,
+  "attempts": [
+    {
+      "mode": "graph",
+      "iteration": 0,
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.03125,
+      "graph_orders": 78,
+      "supported_orders": 18,
+      "graph_labels": 336,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 1,
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0,
+      "graph_orders": 84,
+      "supported_orders": 24,
+      "graph_labels": 353,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 2,
+      "grid_days": 0.046875,
+      "grid_phase_days": 0.01171875,
+      "graph_orders": 138,
+      "supported_orders": 30,
+      "graph_labels": 420,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 3,
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.015625,
+      "graph_orders": 78,
+      "supported_orders": 18,
+      "graph_labels": 338,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 4,
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "graph_orders": 96,
+      "supported_orders": 24,
+      "graph_labels": 376,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 5,
+      "grid_days": 0.0234375,
+      "grid_phase_days": 0.01171875,
+      "graph_orders": 138,
+      "supported_orders": 30,
+      "graph_labels": 423,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 6,
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0234375,
+      "graph_orders": 78,
+      "supported_orders": 18,
+      "graph_labels": 337,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 7,
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.03125,
+      "graph_orders": 96,
+      "supported_orders": 24,
+      "graph_labels": 372,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 8,
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0,
+      "graph_orders": 138,
+      "supported_orders": 30,
+      "graph_labels": 401,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "graph",
+      "iteration": 9,
+      "grid_days": 0.046875,
+      "grid_phase_days": 0.01171875,
+      "graph_orders": 78,
+      "supported_orders": 18,
+      "graph_labels": 341,
+      "best_accepted": 111.75601410472474
+    },
+    {
+      "mode": "graph",
+      "iteration": 10,
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.015625,
+      "graph_orders": 96,
+      "supported_orders": 24,
+      "graph_labels": 388,
+      "best_accepted": 111.75601410472474
+    },
+    {
+      "mode": "graph",
+      "iteration": 11,
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.00390625,
+      "graph_orders": 138,
+      "supported_orders": 30,
+      "graph_labels": 406,
+      "best_accepted": 111.75601410472474
+    },
+    {
+      "mode": "graph",
+      "iteration": 12,
+      "grid_days": 0.0234375,
+      "grid_phase_days": 0.01171875,
+      "graph_orders": 78,
+      "supported_orders": 18,
+      "graph_labels": 349,
+      "best_accepted": 111.75601410472474
+    },
+    {
+      "mode": "graph",
+      "iteration": 13,
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0234375,
+      "graph_orders": 96,
+      "supported_orders": 24,
+      "graph_labels": 383,
+      "best_accepted": 111.75601410472474
+    }
+  ]
+}

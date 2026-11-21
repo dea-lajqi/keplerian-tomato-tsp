@@ -1,0 +1,126 @@
+{
+  "seed": "results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "time budget",
+  "best_official_days": 111.75601410476435,
+  "counts": {
+    "dag_labels": 19265,
+    "esa_checks": 61,
+    "esa_feasible": 61,
+    "distinct_feasible": 13,
+    "duplicates": 97,
+    "changed_order": 40
+  },
+  "attempts": [
+    {
+      "mode": "compact",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24537,
+      "labels_per_state": 2,
+      "subset_labels": 3146,
+      "subset_depth": 14,
+      "timed_orders": 1,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "compact",
+      "iteration": 1,
+      "window": [
+        16,
+        30
+      ],
+      "static_orders": 24981,
+      "labels_per_state": 2,
+      "subset_labels": 3807,
+      "subset_depth": 14,
+      "timed_orders": 2,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "compact",
+      "iteration": 2,
+      "window": [
+        18,
+        32
+      ],
+      "static_orders": 22794,
+      "labels_per_state": 2,
+      "subset_labels": 3096,
+      "subset_depth": 14,
+      "timed_orders": 2,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "compact",
+      "iteration": 3,
+      "window": [
+        17,
+        32
+      ],
+      "static_orders": 22794,
+      "labels_per_state": 2,
+      "subset_labels": 2893,
+      "subset_depth": 15,
+      "timed_orders": 2,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "compact",
+      "iteration": 4,
+      "window": [
+        19,
+        33
+      ],
+      "static_orders": 19206,
+      "labels_per_state": 2,
+      "subset_labels": 2847,
+      "subset_depth": 14,
+      "timed_orders": 2,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "compact",
+      "iteration": 5,
+      "window": [
+        16,
+        31
+      ],
+      "static_orders": 24537,
+      "labels_per_state": 2,
+      "subset_labels": 3476,
+      "subset_depth": 15,
+      "timed_orders": 2,
+      "maximum_depth": 48,
+      "best_accepted": 112.86328125
+    },
+    {
+      "mode": "compact",
+      "iteration": 6,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24537,
+      "labels_per_state": 2
+    }
+  ],
+  "elapsed_seconds": 445.0075359210023
+}

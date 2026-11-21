@@ -1,0 +1,232 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "distinct sweep complete",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "excursion_orders_timed": 288,
+    "esa_checks": 156,
+    "esa_feasible": 156,
+    "changed_order": 156,
+    "duplicates": 132
+  },
+  "attempts": [
+    {
+      "mode": "excursion",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24240,
+      "static_expansions": 90034,
+      "maximum_depth": 48,
+      "best_accepted": 116.6875,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 1,
+      "window": [
+        16,
+        32
+      ],
+      "static_orders": 20870,
+      "static_expansions": 90077,
+      "maximum_depth": 48,
+      "best_accepted": 118.59375,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 2,
+      "window": [
+        15,
+        33
+      ],
+      "static_orders": 16983,
+      "static_expansions": 90131,
+      "maximum_depth": 48,
+      "best_accepted": 120.515625,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 3,
+      "window": [
+        18,
+        31
+      ],
+      "static_orders": 24240,
+      "static_expansions": 90021,
+      "maximum_depth": 48,
+      "best_accepted": 118.609375,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 4,
+      "window": [
+        16,
+        34
+      ],
+      "static_orders": 14089,
+      "static_expansions": 90120,
+      "maximum_depth": 48,
+      "best_accepted": 116.25,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 5,
+      "window": [
+        17,
+        35
+      ],
+      "static_orders": 11952,
+      "static_expansions": 90067,
+      "maximum_depth": 48,
+      "best_accepted": 122.53125,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 6,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24240,
+      "static_expansions": 90034,
+      "maximum_depth": 48,
+      "best_accepted": 121.734375,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 7,
+      "window": [
+        16,
+        32
+      ],
+      "static_orders": 20870,
+      "static_expansions": 90077,
+      "maximum_depth": 48,
+      "best_accepted": 116.6875,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 8,
+      "window": [
+        15,
+        33
+      ],
+      "static_orders": 16983,
+      "static_expansions": 90131,
+      "maximum_depth": 48,
+      "best_accepted": 122.53125,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 9,
+      "window": [
+        18,
+        31
+      ],
+      "static_orders": 24240,
+      "static_expansions": 90021,
+      "maximum_depth": 48,
+      "best_accepted": 120.640625,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 10,
+      "window": [
+        16,
+        34
+      ],
+      "static_orders": 14089,
+      "static_expansions": 90120,
+      "maximum_depth": 48,
+      "best_accepted": 120.796875,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 11,
+      "window": [
+        17,
+        35
+      ],
+      "static_orders": 11952,
+      "static_expansions": 90067,
+      "maximum_depth": 48,
+      "best_accepted": 122.6875,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 12,
+      "window": [
+        17,
+        31
+      ],
+      "static_orders": 24240,
+      "static_expansions": 90034,
+      "maximum_depth": 48,
+      "best_accepted": 119.578125,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 13,
+      "window": [
+        16,
+        32
+      ],
+      "static_orders": 20870,
+      "static_expansions": 90077,
+      "maximum_depth": 48,
+      "best_accepted": 122.546875,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 14,
+      "window": [
+        15,
+        33
+      ],
+      "static_orders": 16983,
+      "static_expansions": 90131,
+      "maximum_depth": 48,
+      "timed_orders": 18
+    },
+    {
+      "mode": "excursion",
+      "iteration": 15,
+      "window": [
+        18,
+        31
+      ],
+      "static_orders": 24240,
+      "static_expansions": 90021,
+      "maximum_depth": 48,
+      "best_accepted": 121.71875,
+      "timed_orders": 18
+    }
+  ],
+  "elapsed_seconds": 94.81335055999807
+}

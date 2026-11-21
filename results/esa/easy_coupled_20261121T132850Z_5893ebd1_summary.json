@@ -1,0 +1,112 @@
+{
+  "seed": "results/esa/easy_coupled_20261121T132608Z_d792ec17_0002.json",
+  "baseline": {
+    "fitness": [
+      111.76542812054207,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "time budget",
+  "best_official_days": 111.76542812054207,
+  "counts": {
+    "reverse_dag_labels": 13883,
+    "reverse_dag_timed_orders": 4,
+    "esa_checks": 94,
+    "esa_feasible": 94,
+    "duplicates": 6,
+    "changed_order": 64
+  },
+  "attempts": [
+    {
+      "mode": "reverse-dag",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "reverse_finish_day": 111.64542812054206,
+      "static_orders": 24537,
+      "suffix_depth": 17,
+      "reverse_release_labels": 4,
+      "subset_depth": 14
+    },
+    {
+      "mode": "reverse-dag",
+      "iteration": 1,
+      "window": [
+        16,
+        32
+      ],
+      "reverse_finish_day": 112.04542812054207,
+      "static_orders": 22794,
+      "suffix_depth": 16,
+      "reverse_release_labels": 4,
+      "subset_depth": 16,
+      "best_accepted": 111.76542812054207,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "reverse-dag",
+      "iteration": 2,
+      "window": [
+        15,
+        33
+      ],
+      "reverse_finish_day": 111.41542812054207,
+      "static_orders": 19205,
+      "suffix_depth": 15,
+      "reverse_release_labels": 4,
+      "subset_depth": 18,
+      "maximum_depth": 48,
+      "best_accepted": 111.76542812054207
+    },
+    {
+      "mode": "reverse-dag",
+      "iteration": 3,
+      "window": [
+        18,
+        31
+      ],
+      "reverse_finish_day": 112.38542812054207,
+      "static_orders": 24537,
+      "suffix_depth": 17,
+      "reverse_release_labels": 4,
+      "subset_depth": 13,
+      "best_accepted": 111.76542812054207,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "reverse-dag",
+      "iteration": 4,
+      "window": [
+        16,
+        34
+      ],
+      "reverse_finish_day": 111.64542812054206,
+      "static_orders": 14089,
+      "suffix_depth": 14,
+      "reverse_release_labels": 4,
+      "subset_depth": 18,
+      "maximum_depth": 48,
+      "best_accepted": 111.88533418926171
+    },
+    {
+      "mode": "reverse-dag",
+      "iteration": 5,
+      "window": [
+        17,
+        35
+      ],
+      "reverse_finish_day": 112.04542812054207,
+      "static_orders": 13934,
+      "suffix_depth": 13,
+      "reverse_release_labels": 4,
+      "subset_depth": 17
+    }
+  ],
+  "elapsed_seconds": 630.0213638659989
+}

@@ -219,3 +219,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .venv/
+
+# Local KTTSP runs and incomplete record writes
+/.kttsp-scratch/
+/results/.KTTSP_MEDIUM_*.tmp
+/results/KTTSP_MEDIUM_BEST_VERIFIED.tmp

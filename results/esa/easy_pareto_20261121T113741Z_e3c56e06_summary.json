@@ -1,0 +1,189 @@
+{
+  "baseline": {
+    "fitness": [
+      122.5465798392641,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_refined_20261121T091447Z.json",
+  "random_seed": 42,
+  "budget_seconds": 30.0,
+  "elapsed_seconds": 30.007356938998782,
+  "counts": {
+    "polish_attempts": 6,
+    "esa_checks": 11,
+    "esa_feasible": 11,
+    "improvements": 3,
+    "window_attempts": 8,
+    "windows_completed": 7,
+    "duplicate_schedules": 4,
+    "esa_feasible_changed_order": 4
+  },
+  "official_transfer_calls": 453824,
+  "distinct_feasible_candidate_orders": 3,
+  "best_official_days": 122.444672848944,
+  "best_changed_order_days": 122.44690857866382,
+  "attempts": [
+    {
+      "method": "forward continuous polish",
+      "valid_days": 122.54657983922587
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        44,
+        49
+      ],
+      "nodes": [
+        42,
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.25,
+      "phase_days": 0.0,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        34,
+        38
+      ],
+      "nodes": [
+        8,
+        38,
+        24,
+        6
+      ],
+      "step_days": 0.125,
+      "phase_days": 0.09269381246997911,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        15,
+        19
+      ],
+      "nodes": [
+        47,
+        36,
+        31,
+        37
+      ],
+      "step_days": 0.125,
+      "phase_days": 0.027901342268602844,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        43,
+        49
+      ],
+      "nodes": [
+        33,
+        42,
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.25,
+      "phase_days": 0.0,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        44,
+        49
+      ],
+      "nodes": [
+        42,
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.0625,
+      "phase_days": 0.04629173404172974,
+      "candidates": 2,
+      "valid_days": [
+        122.48379173404173,
+        122.48379173404173
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        4,
+        11
+      ],
+      "nodes": [
+        12,
+        46,
+        41,
+        2,
+        25,
+        22,
+        13
+      ],
+      "step_days": 0.25,
+      "phase_days": 0.021734708157354038,
+      "candidates": 1,
+      "valid_days": [
+        122.444672848944
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        2,
+        6
+      ],
+      "nodes": [
+        18,
+        10,
+        12,
+        46
+      ],
+      "step_days": 0.125,
+      "phase_days": 0.0,
+      "candidates": 2,
+      "valid_days": [
+        122.54657983922587,
+        122.54657983922587
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        1,
+        9
+      ],
+      "nodes": [
+        23,
+        18,
+        10,
+        12,
+        46,
+        41,
+        2,
+        25
+      ],
+      "step_days": 0.125,
+      "phase_days": 0.011711904982699056
+    }
+  ]
+}

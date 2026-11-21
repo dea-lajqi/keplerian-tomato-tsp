@@ -1,0 +1,244 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "time budget",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "distinct_windows": 16,
+    "timed_subsets": 37,
+    "esa_checks": 276,
+    "esa_feasible": 240,
+    "changed_order": 119,
+    "duplicates": 195,
+    "esa_rejected": 36
+  },
+  "attempts": [
+    {
+      "mode": "window",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.0,
+      "backward_profiles": 8,
+      "subset_depth": 14,
+      "maximum_depth": 48,
+      "best_accepted": 118.1328125
+    },
+    {
+      "mode": "window",
+      "iteration": 1,
+      "window": [
+        16,
+        32
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.015625,
+      "backward_profiles": 8,
+      "subset_depth": 16,
+      "maximum_depth": 48,
+      "best_accepted": 117.15625
+    },
+    {
+      "mode": "window",
+      "iteration": 2,
+      "window": [
+        18,
+        31
+      ],
+      "grid_days": 0.046875,
+      "grid_phase_days": 0.0234375,
+      "backward_profiles": 8,
+      "subset_depth": 13,
+      "best_accepted": 112.84601854004677,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 3,
+      "window": [
+        15,
+        33
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0078125,
+      "backward_profiles": 8,
+      "subset_depth": 15
+    },
+    {
+      "mode": "window",
+      "iteration": 4,
+      "window": [
+        17,
+        34
+      ],
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.03125,
+      "backward_profiles": 8,
+      "subset_depth": 17,
+      "maximum_depth": 48,
+      "best_accepted": 118.1328125
+    },
+    {
+      "mode": "window",
+      "iteration": 5,
+      "window": [
+        19,
+        34
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0,
+      "backward_profiles": 6,
+      "subset_depth": 15,
+      "best_accepted": 112.84601854004677,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 6,
+      "window": [
+        14,
+        31
+      ],
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.0,
+      "backward_profiles": 8,
+      "subset_depth": 14
+    },
+    {
+      "mode": "window",
+      "iteration": 7,
+      "window": [
+        18,
+        35
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.015625,
+      "backward_profiles": 8,
+      "subset_depth": 17,
+      "best_accepted": 112.84601854004677,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 8,
+      "window": [
+        13,
+        30
+      ],
+      "grid_days": 0.046875,
+      "grid_phase_days": 0.0234375,
+      "backward_profiles": 8,
+      "subset_depth": 17,
+      "maximum_depth": 48,
+      "best_accepted": 117.16015625
+    },
+    {
+      "mode": "window",
+      "iteration": 9,
+      "window": [
+        20,
+        36
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0078125,
+      "backward_profiles": 6,
+      "subset_depth": 16,
+      "best_accepted": 112.9949562939285,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 10,
+      "window": [
+        32,
+        49
+      ],
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.03125,
+      "backward_profiles": 2,
+      "subset_depth": 17,
+      "best_accepted": 112.84601854004677,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 11,
+      "window": [
+        0,
+        13
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0,
+      "backward_profiles": 4,
+      "subset_depth": 13,
+      "best_accepted": 113.36086229004677,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 12,
+      "window": [
+        17,
+        31
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.015625,
+      "backward_profiles": 8,
+      "subset_depth": 14,
+      "maximum_depth": 48,
+      "best_accepted": 114.1484375
+    },
+    {
+      "mode": "window",
+      "iteration": 13,
+      "window": [
+        16,
+        32
+      ],
+      "grid_days": 0.046875,
+      "grid_phase_days": 0.0234375,
+      "backward_profiles": 8,
+      "subset_depth": 16,
+      "maximum_depth": 48,
+      "best_accepted": 118.140625
+    },
+    {
+      "mode": "window",
+      "iteration": 14,
+      "window": [
+        18,
+        31
+      ],
+      "grid_days": 0.03125,
+      "grid_phase_days": 0.0078125,
+      "backward_profiles": 8,
+      "subset_depth": 13,
+      "best_accepted": 112.9949562939285,
+      "maximum_depth": 48
+    },
+    {
+      "mode": "window",
+      "iteration": 15,
+      "window": [
+        15,
+        33
+      ],
+      "grid_days": 0.0625,
+      "grid_phase_days": 0.03125,
+      "backward_profiles": 8
+    }
+  ],
+  "elapsed_seconds": 740.0013424530007
+}

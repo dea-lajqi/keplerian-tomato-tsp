@@ -1,0 +1,744 @@
+{
+  "baseline": {
+    "fitness": [
+      117.0302687946843,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "best_official_days": 117.0302687946843,
+  "strategy": "wide",
+  "best_order_changed": false,
+  "best_changed_order_days": 117.4375,
+  "elapsed_seconds": 230.00056465099988,
+  "budget_seconds": 230.0,
+  "counts": {
+    "attempts": 69,
+    "esa_checks": 10,
+    "esa_feasible": 10,
+    "changed_order": 10
+  },
+  "distinct_feasible_orders": 8,
+  "transfer_counts": {
+    "arc_queries": 27768,
+    "grid_cells": 158320172,
+    "lambert_samples": 12453473,
+    "energy_pruned_arcs": 730
+  },
+  "attempts": [
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        4,
+        18
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        2,
+        16
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        11,
+        25
+      ],
+      "completed_depth": 10
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        7,
+        21
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        7,
+        25
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        1,
+        17
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        33,
+        49
+      ],
+      "completed_depth": 13
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        16
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        5,
+        23
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        1,
+        23
+      ],
+      "completed_depth": 20
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        4,
+        16
+      ],
+      "completed_depth": 12
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        8,
+        22
+      ],
+      "completed_depth": 13
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        27,
+        49
+      ],
+      "completed_depth": 19
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        19,
+        37
+      ],
+      "completed_depth": 18,
+      "valid_days": [
+        121.796875
+      ]
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        21,
+        39
+      ],
+      "completed_depth": 18,
+      "valid_days": [
+        120.6875,
+        124.8125
+      ]
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        9,
+        21
+      ],
+      "completed_depth": 8
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        28,
+        42
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        25,
+        43
+      ],
+      "completed_depth": 18
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        28,
+        42
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        14
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        27,
+        49
+      ],
+      "completed_depth": 19
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        10,
+        32
+      ],
+      "completed_depth": 11
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        30,
+        44
+      ],
+      "completed_depth": 14,
+      "valid_days": [
+        123.359375
+      ]
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        37,
+        49
+      ],
+      "completed_depth": 9
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        15,
+        31
+      ],
+      "completed_depth": 6
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        6,
+        24
+      ],
+      "completed_depth": 15
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        35,
+        49
+      ],
+      "completed_depth": 11
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        6,
+        20
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        16
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        1,
+        15
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        31,
+        43
+      ],
+      "completed_depth": 12
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        12,
+        28
+      ],
+      "completed_depth": 9
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        1,
+        15
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        9,
+        31
+      ],
+      "completed_depth": 8
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        9,
+        21
+      ],
+      "completed_depth": 8
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        6,
+        22
+      ],
+      "completed_depth": 15
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        4,
+        20
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        30,
+        46
+      ],
+      "completed_depth": 16,
+      "valid_days": [
+        118.25,
+        117.9375,
+        121.9375
+      ]
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        18
+      ],
+      "completed_depth": 18
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        12
+      ],
+      "completed_depth": 12
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        27,
+        49
+      ],
+      "completed_depth": 19
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        6,
+        18
+      ],
+      "completed_depth": 12
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        18
+      ],
+      "completed_depth": 18
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        5,
+        21
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        18,
+        34
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        9,
+        25
+      ],
+      "completed_depth": 8
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        27,
+        49
+      ],
+      "completed_depth": 19
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        18
+      ],
+      "completed_depth": 18
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        2,
+        18
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        27,
+        39
+      ],
+      "completed_depth": 12
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        4,
+        16
+      ],
+      "completed_depth": 12
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        27,
+        45
+      ],
+      "completed_depth": 18,
+      "valid_days": [
+        117.4375,
+        124.28125
+      ]
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        33,
+        49
+      ],
+      "completed_depth": 13
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        30,
+        44
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        8,
+        26
+      ],
+      "completed_depth": 13
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        16
+      ],
+      "completed_depth": 16
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        22
+      ],
+      "completed_depth": 21
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        12,
+        24
+      ],
+      "completed_depth": 9
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.046875,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        1,
+        15
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        26,
+        44
+      ],
+      "completed_depth": 18,
+      "valid_days": [
+        123.25
+      ]
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.03125,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        14
+      ],
+      "completed_depth": 14
+    },
+    {
+      "step_days": 0.03125,
+      "phase_days": 0.0,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        0,
+        18
+      ],
+      "completed_depth": 18
+    },
+    {
+      "step_days": 0.0625,
+      "phase_days": 0.015625,
+      "method": "displacement-bounded permutation DP",
+      "window": [
+        32,
+        48
+      ]
+    }
+  ]
+}

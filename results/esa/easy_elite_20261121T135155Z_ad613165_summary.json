@@ -1,0 +1,534 @@
+{
+  "mode": "fringe",
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "elite_pool": [
+    {
+      "file": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "days": 111.75601410476435,
+      "flight_days": 105.09336149625061,
+      "directed_edges_changed": 0,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120519Z_9fe9de3e_0001.json",
+      "days": 118.5,
+      "flight_days": 111.54428409827855,
+      "directed_edges_changed": 13,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_e97d8883_0008.json",
+      "days": 113.19029136546536,
+      "flight_days": 106.08993454067817,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125302Z_8203d875_0001.json",
+      "days": 117.03026706879305,
+      "flight_days": 109.41194825595673,
+      "directed_edges_changed": 10,
+      "shell_crossings": [
+        [
+          23,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_86c141b2_0005.json",
+      "days": 114.3069094916195,
+      "flight_days": 107.12838296112379,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125413Z_c5169852_0003.json",
+      "days": 116.00535136677631,
+      "flight_days": 108.95375635351324,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          11,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T131107Z_9a9af22e_0005.json",
+      "days": 112.84601854004677,
+      "flight_days": 105.59629691606023,
+      "directed_edges_changed": 3,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130436Z_311bfed4_0009.json",
+      "days": 112.9949562939285,
+      "flight_days": 105.82428617944312,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130038Z_58e3a3e5_0002.json",
+      "days": 113.5703125,
+      "flight_days": 106.4487817591289,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120045Z_0ee67f24_0002.json",
+      "days": 120.10502666875072,
+      "flight_days": 112.71383301642618,
+      "directed_edges_changed": 12,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          4,
+          45
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    }
+  ],
+  "archived_files_validated": 86,
+  "stop": "no new feasible schedules",
+  "counts": {
+    "endpoint_windows": 15,
+    "esa_checks": 1264,
+    "esa_feasible": 1075,
+    "distinct_feasible": 324,
+    "deduplicated": 1451,
+    "esa_rejected": 189,
+    "new_orders": 10
+  },
+  "best_official_days": 111.75601410476435,
+  "best_new_order": {
+    "days": 111.75601410476435,
+    "path": [
+      18,
+      34,
+      23,
+      10,
+      12,
+      46,
+      41,
+      2,
+      25,
+      22,
+      13,
+      20,
+      40,
+      44,
+      5,
+      47,
+      36,
+      31,
+      37,
+      30,
+      29,
+      45,
+      15,
+      28,
+      1,
+      48,
+      9,
+      11,
+      17,
+      4,
+      19,
+      43,
+      0,
+      39,
+      8,
+      38,
+      24,
+      6,
+      35,
+      26,
+      21,
+      7,
+      3,
+      33,
+      42,
+      14,
+      32,
+      27,
+      16
+    ],
+    "flight_days": 105.0463557207742,
+    "waiting_days": 6.709658383990146
+  },
+  "elapsed_seconds": 267.11983501600116,
+  "attempts": [
+    {
+      "mode": "fringe",
+      "iteration": 0,
+      "window": [
+        37,
+        49
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "subset_depth": 12,
+      "timed_orders": 6,
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 1,
+      "window": [
+        0,
+        12
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "subset_depth": 12,
+      "timed_orders": 1,
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 2,
+      "window": [
+        36,
+        49
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "subset_depth": 13,
+      "timed_orders": 6,
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 3,
+      "window": [
+        1,
+        14
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "grid_days": 0.0625,
+      "phase_days": 0.046875,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 4,
+      "window": [
+        34,
+        47
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 5,
+      "window": [
+        39,
+        49
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 10,
+      "timed_orders": 6,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 6,
+      "window": [
+        0,
+        13
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 7,
+      "window": [
+        35,
+        48
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 2,
+      "grid_days": 0.046875,
+      "phase_days": 0.03515625,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 8,
+      "window": [
+        37,
+        49
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 12,
+      "timed_orders": 6,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 9,
+      "window": [
+        0,
+        12
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 12,
+      "timed_orders": 1,
+      "grid_days": 0.0625,
+      "phase_days": 0.015625
+    },
+    {
+      "mode": "fringe",
+      "iteration": 10,
+      "window": [
+        36,
+        49
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 6,
+      "grid_days": 0.046875,
+      "phase_days": 0.03515625,
+      "best_accepted": 112.00209094337748
+    },
+    {
+      "mode": "fringe",
+      "iteration": 11,
+      "window": [
+        1,
+        14
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "grid_days": 0.03125,
+      "phase_days": 0.015625
+    },
+    {
+      "mode": "fringe",
+      "iteration": 12,
+      "window": [
+        34,
+        47
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "best_accepted": 112.21027995520188
+    },
+    {
+      "mode": "fringe",
+      "iteration": 13,
+      "window": [
+        39,
+        49
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 10,
+      "timed_orders": 6,
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "fringe",
+      "iteration": 14,
+      "window": [
+        0,
+        13
+      ],
+      "parent": "elite endpoint subset and epoch propagation",
+      "subset_depth": 13,
+      "timed_orders": 1,
+      "grid_days": 0.03125,
+      "phase_days": 0.0234375
+    }
+  ]
+}

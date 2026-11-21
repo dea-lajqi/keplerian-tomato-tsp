@@ -1,0 +1,416 @@
+{
+  "mode": "subset",
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "elite_pool": [
+    {
+      "file": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "days": 111.75601410476435,
+      "flight_days": 105.09336149625061,
+      "directed_edges_changed": 0,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120519Z_9fe9de3e_0001.json",
+      "days": 118.5,
+      "flight_days": 111.54428409827855,
+      "directed_edges_changed": 13,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_e97d8883_0008.json",
+      "days": 113.19029136546536,
+      "flight_days": 106.08993454067817,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125302Z_8203d875_0001.json",
+      "days": 117.03026706879305,
+      "flight_days": 109.41194825595673,
+      "directed_edges_changed": 10,
+      "shell_crossings": [
+        [
+          23,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_86c141b2_0005.json",
+      "days": 114.3069094916195,
+      "flight_days": 107.12838296112379,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125413Z_c5169852_0003.json",
+      "days": 116.00535136677631,
+      "flight_days": 108.95375635351324,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          11,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T131107Z_9a9af22e_0005.json",
+      "days": 112.84601854004677,
+      "flight_days": 105.59629691606023,
+      "directed_edges_changed": 3,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130436Z_311bfed4_0009.json",
+      "days": 112.9949562939285,
+      "flight_days": 105.82428617944312,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130038Z_58e3a3e5_0002.json",
+      "days": 113.5703125,
+      "flight_days": 106.4487817591289,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120045Z_0ee67f24_0002.json",
+      "days": 120.10502666875072,
+      "flight_days": 112.71383301642618,
+      "directed_edges_changed": 12,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          4,
+          45
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    }
+  ],
+  "archived_files_validated": 86,
+  "stop": "no material improvement across the remaining variants",
+  "counts": {
+    "subset_labels": 24601,
+    "subset_windows": 8,
+    "esa_checks": 1420,
+    "esa_feasible": 1238,
+    "distinct_feasible": 427,
+    "deduplicated": 804,
+    "esa_rejected": 182,
+    "new_orders": 7
+  },
+  "best_official_days": 111.75601410476435,
+  "elapsed_seconds": 694.2396962130006,
+  "attempts": [
+    {
+      "mode": "subset",
+      "iteration": 0,
+      "window": [
+        17,
+        31
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "donor_blocks": 67,
+      "static_orders": 24537,
+      "static_expansions": 90049,
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "subset_labels": 3381,
+      "subset_depth": 14,
+      "timed_orders": 2,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "subset",
+      "iteration": 1,
+      "window": [
+        16,
+        32
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "donor_blocks": 63,
+      "static_orders": 22794,
+      "static_expansions": 90078,
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "subset_labels": 3148,
+      "subset_depth": 16,
+      "timed_orders": 2,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "subset",
+      "iteration": 2,
+      "window": [
+        18,
+        31
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "donor_blocks": 72,
+      "static_orders": 24537,
+      "static_expansions": 90033,
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "subset_labels": 3459,
+      "subset_depth": 13,
+      "timed_orders": 2,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "subset",
+      "iteration": 3,
+      "window": [
+        15,
+        33
+      ],
+      "parent": "easy_global_20261121T120519Z_9fe9de3e_0001.json",
+      "donor_blocks": 72,
+      "static_orders": 21883,
+      "static_expansions": 90148,
+      "grid_days": 0.0625,
+      "phase_days": 0.046875,
+      "subset_labels": 3833,
+      "subset_depth": 18,
+      "timed_orders": 4,
+      "best_accepted": 111.88533418929235
+    },
+    {
+      "mode": "subset",
+      "iteration": 4,
+      "window": [
+        16,
+        34
+      ],
+      "parent": "easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+      "donor_blocks": 75,
+      "static_orders": 16184,
+      "static_expansions": 90123,
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "subset_labels": 3097,
+      "subset_depth": 18,
+      "timed_orders": 2,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "subset",
+      "iteration": 5,
+      "window": [
+        17,
+        35
+      ],
+      "parent": "elite subset order with coupled timing",
+      "donor_blocks": 75,
+      "static_orders": 18203,
+      "static_expansions": 90131,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "subset_labels": 455,
+      "subset_depth": 18,
+      "timed_orders": 2,
+      "best_accepted": 116.00535136677631
+    },
+    {
+      "mode": "subset",
+      "iteration": 6,
+      "window": [
+        14,
+        31
+      ],
+      "parent": "easy_focus_20261121T130313Z_e97d8883_0008.json",
+      "donor_blocks": 70,
+      "static_orders": 24239,
+      "static_expansions": 90089,
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "subset_labels": 3707,
+      "subset_depth": 17,
+      "timed_orders": 2,
+      "best_accepted": 111.88533418929235
+    },
+    {
+      "mode": "subset",
+      "iteration": 7,
+      "window": [
+        17,
+        33
+      ],
+      "parent": "easy_focus_20261121T130313Z_e97d8883_0008.json",
+      "donor_blocks": 70,
+      "static_orders": 16983,
+      "static_expansions": 90092,
+      "grid_days": 0.046875,
+      "phase_days": 0.03515625,
+      "subset_labels": 3521,
+      "subset_depth": 16,
+      "timed_orders": 2,
+      "best_accepted": 111.88533418929235
+    }
+  ]
+}

@@ -1,0 +1,4824 @@
+{
+  "mode": "topology",
+  "baseline": {
+    "fitness": [
+      114.671875,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T130038Z_58e3a3e5_0001.json",
+  "best_days": 114.671875,
+  "best_changed_order_days": 121.03125,
+  "stop": "no new topology proposals",
+  "counts": {
+    "attempts": 436,
+    "distinct_route_timing": 86,
+    "checked": 70,
+    "feasible": 70,
+    "changed_order": 70
+  },
+  "attempts": [
+    {
+      "mode": "topology",
+      "iteration": 0,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 1,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 1,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 1,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 2,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 3,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 4
+    },
+    {
+      "mode": "topology",
+      "iteration": 4,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 5,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 6,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 7,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 8,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 9,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 10,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 11,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 12,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 13,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 14,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 15,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 16,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 17,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 18,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 19,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 20,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 21,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 22,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 23,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 24,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 25,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 26,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 27,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 4
+    },
+    {
+      "mode": "topology",
+      "iteration": 28,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 29,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 30,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 31,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 32,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 33,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 34,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 35,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 36,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 37,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 38,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 39,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 40,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 41,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 42,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 43,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 44,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 45,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 46,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 47,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 48,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 49,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 50,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 51,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 52,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 53,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 54,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 55,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 56,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 57,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 58,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 59,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 60,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 61,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 62,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 63,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 64,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 65,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 66,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 67,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 4
+    },
+    {
+      "mode": "topology",
+      "iteration": 68,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 69,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 70,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 71,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 72,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 73,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 74,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 75,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 76,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 77,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 78,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 79,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 80,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 81,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 82,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 83,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 84,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 85,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 86,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 87,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 88,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 89,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 90,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 91,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 92,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 93,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 94,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 95,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 96,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 97,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 98,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 99,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 100,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 101,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 102,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 103,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 104,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 105,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 106,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 107,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 4
+    },
+    {
+      "mode": "topology",
+      "iteration": 108,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 109,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 110,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 111,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 112,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 113,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 114,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 115,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 116,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 117,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 118,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 119,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 120,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 121,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 122,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 123,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 124,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 125,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 126,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 127,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 128,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 129,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 130,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 131,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 132,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 133,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 134,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 135,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 136,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 137,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 138,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 139,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 140,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 141,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 142,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 143,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 144,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 145,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 146,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 147,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 148,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 149,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 150,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 151,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 152,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 153,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 154,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 155,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 156,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 157,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 158,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 159,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 160,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 161,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 162,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 163,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 4
+    },
+    {
+      "mode": "topology",
+      "iteration": 164,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 165,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 166,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 167,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 168,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 169,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 170,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 171,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 172,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 173,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 174,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 175,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 176,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 177,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 178,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 179,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 4
+    },
+    {
+      "mode": "topology",
+      "iteration": 180,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 181,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 182,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 183,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 184,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 185,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 186,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 187,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 188,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 189,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 190,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 191,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 192,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 193,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 194,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 195,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 196,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 197,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 198,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 199,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 200,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 201,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 202,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 203,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 204,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 205,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 206,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 207,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 208,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 209,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 210,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 211,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 212,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 213,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 214,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 215,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 216,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 217,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 218,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 219,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 220,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 221,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 222,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 223,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 224,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 225,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 226,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 227,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 228,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 229,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 230,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 231,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 232,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 233,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 234,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 235,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 236,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 237,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 238,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 239,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 240,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 241,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 242,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 243,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 244,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 245,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 246,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 247,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 248,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 249,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 250,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 251,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 252,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 253,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 254,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 255,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 256,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 257,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 258,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 259,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 260,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 261,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 262,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 263,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 264,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 265,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 266,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 267,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 268,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 269,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 270,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 271,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 272,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 273,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 274,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 275,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 276,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 277,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 278,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 279,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 280,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 281,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 282,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 283,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 284,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 285,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 286,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 287,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 288,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 289,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 290,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 291,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 292,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 293,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 294,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 295,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 296,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 297,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 298,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 299,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 300,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 301,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 302,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 303,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 304,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 305,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 306,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 307,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 308,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 309,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 310,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 311,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 312,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 313,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 314,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 315,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 316,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 317,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 318,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 319,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 320,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 321,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 322,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 323,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 324,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 325,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 326,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 327,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 328,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 329,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 330,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 331,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 332,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 333,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 334,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 335,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 336,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 337,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 338,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 339,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 340,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 341,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 342,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 343,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 344,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 345,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 346,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 347,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 348,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 349,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 350,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 351,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 352,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 353,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 354,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 355,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 356,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 357,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 358,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 359,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 360,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 361,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 362,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 363,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 364,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 365,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 366,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 367,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 368,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 369,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 370,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 371,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 372,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 373,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 374,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 375,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 376,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 377,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 378,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 379,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 380,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 381,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 382,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 383,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 384,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 385,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 386,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 387,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 3
+    },
+    {
+      "mode": "topology",
+      "iteration": 388,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 389,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 390,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 391,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 392,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 393,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 394,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 395,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 396,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 397,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 398,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 399,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 1
+    },
+    {
+      "mode": "topology",
+      "iteration": 400,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 401,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 402,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 403,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 404,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 405,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 406,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 407,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 408,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 409,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 410,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 411,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 412,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 413,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 414,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 415,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 416,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 417,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 418,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 419,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 420,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 421,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 422,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 423,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 424,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 425,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 426,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 427,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 428,
+      "window": [
+        15,
+        37
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 429,
+      "window": [
+        36,
+        49
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 430,
+      "window": [
+        19,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 431,
+      "window": [
+        16,
+        31
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 432,
+      "window": [
+        17,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 433,
+      "window": [
+        18,
+        32
+      ],
+      "max_mandatory_exceptions": 4,
+      "orders": 0,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 434,
+      "window": [
+        16,
+        34
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 1,
+      "distinct_route_timing": 0
+    },
+    {
+      "mode": "topology",
+      "iteration": 435,
+      "window": [
+        0,
+        10
+      ],
+      "max_mandatory_exceptions": 5,
+      "orders": 2,
+      "distinct_route_timing": 0
+    }
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 24.5646164890004
+}

@@ -1,0 +1,4662 @@
+{
+  "mode": "overlap",
+  "baseline": {
+    "fitness": [
+      116.00535136677631,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T125413Z_c5169852_0003.json",
+  "best_days": 116.00535136677631,
+  "best_changed_order_days": 116.00535136677631,
+  "stop": "stagnation",
+  "counts": {
+    "attempts": 288,
+    "checked": 49,
+    "feasible": 49,
+    "changed_order": 49
+  },
+  "attempts": [
+    {
+      "mode": "overlap",
+      "iteration": 0,
+      "window": [
+        26,
+        38
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 1,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 2,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2,
+      "best_accepted": 116.453125
+    },
+    {
+      "mode": "overlap",
+      "iteration": 3,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 4,
+      "window": [
+        5,
+        19
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 5,
+      "window": [
+        8,
+        25
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 6,
+      "window": [
+        8,
+        20
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 7,
+      "window": [
+        11,
+        26
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 8,
+      "window": [
+        13,
+        31
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 1,
+      "best_accepted": 118.1640625
+    },
+    {
+      "mode": "overlap",
+      "iteration": 9,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 10,
+      "window": [
+        3,
+        17
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 11,
+      "window": [
+        6,
+        23
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 1,
+      "best_accepted": 119.54296875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 12,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 13,
+      "window": [
+        2,
+        17
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 14,
+      "window": [
+        4,
+        22
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 15,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 16,
+      "window": [
+        10,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 17,
+      "window": [
+        13,
+        30
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1,
+      "best_accepted": 119.453125
+    },
+    {
+      "mode": "overlap",
+      "iteration": 18,
+      "window": [
+        4,
+        16
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 19,
+      "window": [
+        10,
+        25
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 1,
+      "best_accepted": 119.453125
+    },
+    {
+      "mode": "overlap",
+      "iteration": 20,
+      "window": [
+        9,
+        27
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 21,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 116.00535136677631
+    },
+    {
+      "mode": "overlap",
+      "iteration": 22,
+      "window": [
+        0,
+        14
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 23,
+      "window": [
+        3,
+        20
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 24,
+      "window": [
+        25,
+        37
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 25,
+      "window": [
+        28,
+        43
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 26,
+      "window": [
+        30,
+        48
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 27,
+      "window": [
+        20,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 28,
+      "window": [
+        27,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 29,
+      "window": [
+        30,
+        47
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 30,
+      "window": [
+        1,
+        13
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 31,
+      "window": [
+        4,
+        19
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 32,
+      "window": [
+        6,
+        24
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 33,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 34,
+      "window": [
+        6,
+        20
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 35,
+      "window": [
+        12,
+        29
+      ],
+      "focus_edge": [
+        36,
+        31
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 36,
+      "window": [
+        29,
+        41
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 37,
+      "window": [
+        32,
+        47
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 38,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 2,
+      "best_accepted": 116.1015625
+    },
+    {
+      "mode": "overlap",
+      "iteration": 39,
+      "window": [
+        23,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 120.75
+    },
+    {
+      "mode": "overlap",
+      "iteration": 40,
+      "window": [
+        30,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 41,
+      "window": [
+        32,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 2,
+      "best_accepted": 116.58984375
+    },
+    {
+      "mode": "overlap",
+      "iteration": 42,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 43,
+      "window": [
+        1,
+        16
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 44,
+      "window": [
+        3,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 45,
+      "window": [
+        1,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 46,
+      "window": [
+        8,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 47,
+      "window": [
+        9,
+        26
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 48,
+      "window": [
+        26,
+        38
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 49,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 50,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 51,
+      "window": [
+        15,
+        36
+      ],
+      "focus_edge": [
+        30,
+        19
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 119.54296875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 52,
+      "window": [
+        5,
+        19
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 53,
+      "window": [
+        8,
+        25
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 54,
+      "window": [
+        8,
+        20
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 55,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 1,
+      "best_accepted": 119.54296875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 56,
+      "window": [
+        13,
+        31
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 57,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 58,
+      "window": [
+        3,
+        17
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 59,
+      "window": [
+        6,
+        23
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 60,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 61,
+      "window": [
+        2,
+        17
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 62,
+      "window": [
+        4,
+        22
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 63,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 64,
+      "window": [
+        10,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 65,
+      "window": [
+        13,
+        30
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 66,
+      "window": [
+        4,
+        16
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 67,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 68,
+      "window": [
+        9,
+        27
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 69,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 70,
+      "window": [
+        0,
+        14
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 71,
+      "window": [
+        3,
+        20
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 72,
+      "window": [
+        25,
+        37
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 73,
+      "window": [
+        28,
+        43
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 74,
+      "window": [
+        30,
+        48
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 75,
+      "window": [
+        20,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 76,
+      "window": [
+        27,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 77,
+      "window": [
+        30,
+        47
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 78,
+      "window": [
+        1,
+        13
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 79,
+      "window": [
+        4,
+        19
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 80,
+      "window": [
+        6,
+        24
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 81,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 82,
+      "window": [
+        6,
+        20
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 83,
+      "window": [
+        12,
+        29
+      ],
+      "focus_edge": [
+        36,
+        31
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 84,
+      "window": [
+        29,
+        41
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 85,
+      "window": [
+        32,
+        47
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 86,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 87,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 88,
+      "window": [
+        30,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 89,
+      "window": [
+        32,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 90,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 91,
+      "window": [
+        1,
+        16
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 92,
+      "window": [
+        3,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 93,
+      "window": [
+        1,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 94,
+      "window": [
+        8,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 95,
+      "window": [
+        11,
+        28
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 96,
+      "window": [
+        26,
+        38
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 97,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 98,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 99,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 100,
+      "window": [
+        5,
+        19
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 101,
+      "window": [
+        8,
+        25
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 102,
+      "window": [
+        8,
+        20
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 103,
+      "window": [
+        11,
+        26
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 10,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 104,
+      "window": [
+        13,
+        31
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 105,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 106,
+      "window": [
+        3,
+        17
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 107,
+      "window": [
+        6,
+        23
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 108,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 109,
+      "window": [
+        2,
+        17
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 110,
+      "window": [
+        4,
+        22
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 111,
+      "window": [
+        3,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 119.671875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 112,
+      "window": [
+        10,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 113,
+      "window": [
+        13,
+        30
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 114,
+      "window": [
+        4,
+        16
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 115,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 116,
+      "window": [
+        9,
+        27
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 117,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 118,
+      "window": [
+        0,
+        14
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 119,
+      "window": [
+        3,
+        20
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 120,
+      "window": [
+        25,
+        37
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 121,
+      "window": [
+        28,
+        43
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 122,
+      "window": [
+        30,
+        48
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 123,
+      "window": [
+        20,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 119.1875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 124,
+      "window": [
+        27,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 125,
+      "window": [
+        30,
+        47
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 126,
+      "window": [
+        1,
+        13
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 127,
+      "window": [
+        4,
+        19
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 128,
+      "window": [
+        6,
+        24
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 129,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 130,
+      "window": [
+        6,
+        20
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 131,
+      "window": [
+        9,
+        26
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 132,
+      "window": [
+        29,
+        41
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 133,
+      "window": [
+        32,
+        47
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 134,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 135,
+      "window": [
+        25,
+        46
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 136,
+      "window": [
+        30,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 137,
+      "window": [
+        32,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 138,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 139,
+      "window": [
+        1,
+        16
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 140,
+      "window": [
+        3,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 141,
+      "window": [
+        1,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 142,
+      "window": [
+        8,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 143,
+      "window": [
+        11,
+        28
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 144,
+      "window": [
+        26,
+        38
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 145,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 146,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 147,
+      "window": [
+        15,
+        36
+      ],
+      "focus_edge": [
+        30,
+        19
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 148,
+      "window": [
+        5,
+        19
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 149,
+      "window": [
+        8,
+        25
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 150,
+      "window": [
+        8,
+        20
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 151,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 152,
+      "window": [
+        13,
+        31
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 153,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 154,
+      "window": [
+        3,
+        17
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 155,
+      "window": [
+        6,
+        23
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1,
+      "best_accepted": 119.1875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 156,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 157,
+      "window": [
+        2,
+        17
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 158,
+      "window": [
+        4,
+        22
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 159,
+      "window": [
+        3,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 119.1875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 160,
+      "window": [
+        10,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 161,
+      "window": [
+        13,
+        30
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 162,
+      "window": [
+        4,
+        16
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 163,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 1,
+      "best_accepted": 118.1640625
+    },
+    {
+      "mode": "overlap",
+      "iteration": 164,
+      "window": [
+        9,
+        27
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 165,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 166,
+      "window": [
+        0,
+        14
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 167,
+      "window": [
+        3,
+        20
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1,
+      "best_accepted": 122.828125
+    },
+    {
+      "mode": "overlap",
+      "iteration": 168,
+      "window": [
+        25,
+        37
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 169,
+      "window": [
+        28,
+        43
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 170,
+      "window": [
+        30,
+        48
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 171,
+      "window": [
+        20,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 121.21875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 172,
+      "window": [
+        27,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 173,
+      "window": [
+        30,
+        47
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 174,
+      "window": [
+        1,
+        13
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 175,
+      "window": [
+        4,
+        19
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 176,
+      "window": [
+        6,
+        24
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 177,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 178,
+      "window": [
+        6,
+        20
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 179,
+      "window": [
+        9,
+        26
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 180,
+      "window": [
+        29,
+        41
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 181,
+      "window": [
+        32,
+        47
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 182,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 183,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 118.9375
+    },
+    {
+      "mode": "overlap",
+      "iteration": 184,
+      "window": [
+        30,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 185,
+      "window": [
+        32,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 186,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 187,
+      "window": [
+        6,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 1,
+      "best_accepted": 121.03125
+    },
+    {
+      "mode": "overlap",
+      "iteration": 188,
+      "window": [
+        3,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 189,
+      "window": [
+        1,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 190,
+      "window": [
+        8,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 191,
+      "window": [
+        4,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 1,
+      "best_accepted": 118.9375
+    },
+    {
+      "mode": "overlap",
+      "iteration": 192,
+      "window": [
+        26,
+        38
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 193,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 194,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 195,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 196,
+      "window": [
+        5,
+        19
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 197,
+      "window": [
+        8,
+        25
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 198,
+      "window": [
+        8,
+        20
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 199,
+      "window": [
+        11,
+        26
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 200,
+      "window": [
+        13,
+        31
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 201,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 202,
+      "window": [
+        3,
+        17
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 203,
+      "window": [
+        6,
+        23
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 204,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 205,
+      "window": [
+        2,
+        17
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 206,
+      "window": [
+        4,
+        22
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 207,
+      "window": [
+        3,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 118.1640625
+    },
+    {
+      "mode": "overlap",
+      "iteration": 208,
+      "window": [
+        10,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 209,
+      "window": [
+        13,
+        30
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 210,
+      "window": [
+        4,
+        16
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 211,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 212,
+      "window": [
+        9,
+        27
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 213,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 214,
+      "window": [
+        0,
+        14
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 215,
+      "window": [
+        3,
+        20
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 216,
+      "window": [
+        25,
+        37
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 217,
+      "window": [
+        28,
+        43
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 218,
+      "window": [
+        30,
+        48
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 219,
+      "window": [
+        20,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 120.5
+    },
+    {
+      "mode": "overlap",
+      "iteration": 220,
+      "window": [
+        27,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 221,
+      "window": [
+        30,
+        47
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 222,
+      "window": [
+        1,
+        13
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 223,
+      "window": [
+        4,
+        19
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 224,
+      "window": [
+        6,
+        24
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 225,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 226,
+      "window": [
+        6,
+        20
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 227,
+      "window": [
+        9,
+        26
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 228,
+      "window": [
+        29,
+        41
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 229,
+      "window": [
+        32,
+        47
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 230,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 231,
+      "window": [
+        24,
+        45
+      ],
+      "focus_edge": [
+        35,
+        26
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 232,
+      "window": [
+        30,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 233,
+      "window": [
+        32,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 234,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 235,
+      "window": [
+        1,
+        16
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 236,
+      "window": [
+        3,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 237,
+      "window": [
+        1,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 238,
+      "window": [
+        8,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 239,
+      "window": [
+        11,
+        28
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 240,
+      "window": [
+        26,
+        38
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 241,
+      "window": [
+        29,
+        44
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 242,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        24,
+        6
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 243,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 244,
+      "window": [
+        5,
+        19
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 245,
+      "window": [
+        8,
+        25
+      ],
+      "focus_edge": [
+        40,
+        44
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 246,
+      "window": [
+        8,
+        20
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 247,
+      "window": [
+        11,
+        26
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 248,
+      "window": [
+        13,
+        31
+      ],
+      "focus_edge": [
+        37,
+        9
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 249,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 250,
+      "window": [
+        3,
+        17
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 251,
+      "window": [
+        6,
+        23
+      ],
+      "focus_edge": [
+        13,
+        20
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 1,
+      "best_accepted": 119.1875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 252,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 253,
+      "window": [
+        2,
+        17
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 254,
+      "window": [
+        4,
+        22
+      ],
+      "focus_edge": [
+        22,
+        13
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 255,
+      "window": [
+        3,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 256,
+      "window": [
+        10,
+        24
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 257,
+      "window": [
+        13,
+        30
+      ],
+      "focus_edge": [
+        31,
+        37
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 258,
+      "window": [
+        4,
+        16
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 259,
+      "window": [
+        7,
+        22
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 260,
+      "window": [
+        9,
+        27
+      ],
+      "focus_edge": [
+        5,
+        47
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 261,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1
+    },
+    {
+      "mode": "overlap",
+      "iteration": 262,
+      "window": [
+        0,
+        14
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 263,
+      "window": [
+        3,
+        20
+      ],
+      "focus_edge": [
+        2,
+        25
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 264,
+      "window": [
+        25,
+        37
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 265,
+      "window": [
+        28,
+        43
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 266,
+      "window": [
+        30,
+        48
+      ],
+      "focus_edge": [
+        38,
+        24
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 267,
+      "window": [
+        20,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 120.6875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 268,
+      "window": [
+        27,
+        41
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 269,
+      "window": [
+        30,
+        47
+      ],
+      "focus_edge": [
+        8,
+        38
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 270,
+      "window": [
+        1,
+        13
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 271,
+      "window": [
+        4,
+        19
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 272,
+      "window": [
+        6,
+        24
+      ],
+      "focus_edge": [
+        20,
+        40
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 273,
+      "window": [
+        0,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 274,
+      "window": [
+        6,
+        20
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 275,
+      "window": [
+        9,
+        26
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 276,
+      "window": [
+        29,
+        41
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 277,
+      "window": [
+        32,
+        47
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 15,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 278,
+      "window": [
+        31,
+        49
+      ],
+      "focus_edge": [
+        26,
+        21
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "depth": 18,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 279,
+      "window": [
+        23,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 1,
+      "best_accepted": 120.1875
+    },
+    {
+      "mode": "overlap",
+      "iteration": 280,
+      "window": [
+        30,
+        44
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.03125,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 281,
+      "window": [
+        32,
+        49
+      ],
+      "focus_edge": [
+        6,
+        35
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.01171875,
+      "depth": 17,
+      "orders": 2
+    },
+    {
+      "mode": "overlap",
+      "iteration": 282,
+      "window": [
+        0,
+        12
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 12,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 283,
+      "window": [
+        6,
+        21
+      ],
+      "focus_edge": [
+        44,
+        5
+      ],
+      "grid_days": 0.03125,
+      "phase_days": 0.015625,
+      "depth": 15,
+      "orders": 1,
+      "best_accepted": 118.9375
+    },
+    {
+      "mode": "overlap",
+      "iteration": 284,
+      "window": [
+        3,
+        21
+      ],
+      "focus_edge": [
+        25,
+        22
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 18,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 285,
+      "window": [
+        1,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.0,
+      "depth": 21,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 286,
+      "window": [
+        8,
+        22
+      ],
+      "focus_edge": [
+        47,
+        36
+      ],
+      "grid_days": 0.046875,
+      "phase_days": 0.0234375,
+      "depth": 14,
+      "orders": 0
+    },
+    {
+      "mode": "overlap",
+      "iteration": 287,
+      "window": [
+        22,
+        39
+      ],
+      "focus_edge": [
+        48,
+        45
+      ],
+      "grid_days": 0.0625,
+      "phase_days": 0.015625,
+      "depth": 17,
+      "orders": 0
+    }
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 251.33557671900053
+}

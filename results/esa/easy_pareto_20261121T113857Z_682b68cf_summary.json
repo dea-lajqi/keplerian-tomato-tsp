@@ -1,0 +1,541 @@
+{
+  "baseline": {
+    "fitness": [
+      122.444672848944,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_pareto_20261121T113741Z_e3c56e06_0003.json",
+  "random_seed": 2026,
+  "budget_seconds": 1800.0,
+  "elapsed_seconds": 460.6625919880007,
+  "stop_reason": "stagnation",
+  "counts": {
+    "polish_attempts": 12,
+    "duplicate_schedules": 18,
+    "window_attempts": 23,
+    "windows_completed": 23,
+    "esa_checks": 21,
+    "esa_feasible": 21,
+    "improvements": 2,
+    "esa_feasible_changed_order": 10
+  },
+  "official_transfer_calls": 6254076,
+  "distinct_feasible_candidate_orders": 3,
+  "best_official_days": 122.31051320297769,
+  "best_changed_order_days": 122.45962191562498,
+  "attempts": [
+    {
+      "method": "forward continuous polish",
+      "valid_days": null
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        45,
+        49
+      ],
+      "nodes": [
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.0625,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": 125.444672848944,
+      "candidates": 2,
+      "valid_days": [
+        122.33588111490226,
+        122.5625
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        7,
+        13
+      ],
+      "nodes": [
+        2,
+        25,
+        22,
+        13,
+        20,
+        40
+      ],
+      "step_days": 0.125,
+      "departure_phase_days": 0.11051497442953712,
+      "flight_phase_days": 0.11185089182204627,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": [
+        122.31051320297769
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        35,
+        41
+      ],
+      "nodes": [
+        38,
+        24,
+        6,
+        35,
+        26,
+        21
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.19584334562079758,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        37,
+        43
+      ],
+      "nodes": [
+        6,
+        35,
+        26,
+        21,
+        7,
+        3
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        45,
+        49
+      ],
+      "nodes": [
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.125,
+      "departure_phase_days": 0.07677553508498115,
+      "flight_phase_days": 0.013842067948766246,
+      "open_end_cap_days": 122.31051320297769,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        19,
+        27
+      ],
+      "nodes": [
+        9,
+        48,
+        28,
+        1,
+        15,
+        11,
+        17,
+        4
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.0028722077883084896,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        20,
+        27
+      ],
+      "nodes": [
+        48,
+        28,
+        1,
+        15,
+        11,
+        17,
+        4
+      ],
+      "step_days": 0.125,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 2,
+      "valid_days": [
+        122.5625
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        16,
+        21
+      ],
+      "nodes": [
+        36,
+        31,
+        37,
+        9,
+        48
+      ],
+      "step_days": 0.1875,
+      "departure_phase_days": 0.18373356526565157,
+      "flight_phase_days": 0.17424699341408356,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        41,
+        49
+      ],
+      "nodes": [
+        7,
+        3,
+        33,
+        42,
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.24991403100261447,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": 125.31051320297769,
+      "candidates": 2,
+      "valid_days": [
+        122.31051320297769,
+        123.31241403100262
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        17,
+        23
+      ],
+      "nodes": [
+        31,
+        37,
+        9,
+        48,
+        17,
+        11
+      ],
+      "step_days": 0.1875,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": [
+        122.5625
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        35,
+        39
+      ],
+      "nodes": [
+        38,
+        24,
+        6,
+        35
+      ],
+      "step_days": 0.0625,
+      "departure_phase_days": 0.018257617153041965,
+      "flight_phase_days": 0.02859048738185705,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        36,
+        43
+      ],
+      "nodes": [
+        24,
+        6,
+        35,
+        26,
+        21,
+        7,
+        3
+      ],
+      "step_days": 0.1875,
+      "departure_phase_days": 0.004638619042645578,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        42,
+        49
+      ],
+      "nodes": [
+        3,
+        33,
+        42,
+        14,
+        16,
+        32,
+        27
+      ],
+      "step_days": 0.1875,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": 122.5625,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        10,
+        15
+      ],
+      "nodes": [
+        13,
+        20,
+        40,
+        44,
+        5
+      ],
+      "step_days": 0.125,
+      "departure_phase_days": 0.04984666583218493,
+      "flight_phase_days": 0.07321472703893578,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        7,
+        12
+      ],
+      "nodes": [
+        2,
+        25,
+        22,
+        13,
+        20
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.1265896871733465,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        31,
+        39
+      ],
+      "nodes": [
+        43,
+        0,
+        39,
+        8,
+        38,
+        24,
+        6,
+        35
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        43,
+        49
+      ],
+      "nodes": [
+        33,
+        42,
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.1875,
+      "departure_phase_days": 0.15833957039746382,
+      "flight_phase_days": 0.10575002421564392,
+      "open_end_cap_days": 125.31051320297769,
+      "candidates": 2,
+      "valid_days": [
+        123.22083957039746
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        16,
+        21
+      ],
+      "nodes": [
+        36,
+        31,
+        37,
+        9,
+        48
+      ],
+      "step_days": 0.0625,
+      "departure_phase_days": 0.05032332149584597,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": [
+        122.31051320297769
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        8,
+        14
+      ],
+      "nodes": [
+        25,
+        22,
+        13,
+        20,
+        40,
+        44
+      ],
+      "step_days": 0.125,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        33,
+        40
+      ],
+      "nodes": [
+        39,
+        8,
+        38,
+        24,
+        6,
+        35,
+        26
+      ],
+      "step_days": 0.125,
+      "departure_phase_days": 0.08966344094119005,
+      "flight_phase_days": 0.05367619122382283,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        45,
+        49
+      ],
+      "nodes": [
+        14,
+        16,
+        27,
+        32
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.22107653735005717,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": 122.31051320297769,
+      "candidates": 1,
+      "valid_days": []
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        6,
+        14
+      ],
+      "nodes": [
+        41,
+        2,
+        25,
+        22,
+        13,
+        20,
+        40,
+        44
+      ],
+      "step_days": 0.25,
+      "departure_phase_days": 0.0,
+      "flight_phase_days": 0.0,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": [
+        122.444672848944
+      ]
+    },
+    {
+      "method": "subset DP",
+      "window": [
+        30,
+        37
+      ],
+      "nodes": [
+        19,
+        43,
+        0,
+        39,
+        8,
+        38,
+        24
+      ],
+      "step_days": 0.0625,
+      "departure_phase_days": 0.01568790504699389,
+      "flight_phase_days": 0.025130019835081847,
+      "open_end_cap_days": null,
+      "candidates": 1,
+      "valid_days": [
+        122.31051320297769
+      ]
+    }
+  ]
+}

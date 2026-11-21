@@ -1,0 +1,102 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "no new feasible schedules",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "coherent_trials": 9
+  },
+  "attempts": [
+    {
+      "mode": "coherent",
+      "iteration": 0,
+      "transfer_window": [
+        17,
+        30
+      ],
+      "departure_shift_days": -0.18
+    },
+    {
+      "mode": "coherent",
+      "iteration": 1,
+      "transfer_window": [
+        24,
+        36
+      ],
+      "departure_shift_days": -0.18
+    },
+    {
+      "mode": "coherent",
+      "iteration": 2,
+      "transfer_window": [
+        26,
+        35
+      ],
+      "departure_shift_days": -0.18
+    },
+    {
+      "mode": "coherent",
+      "iteration": 3,
+      "transfer_window": [
+        18,
+        27
+      ],
+      "departure_shift_days": -0.42
+    },
+    {
+      "mode": "coherent",
+      "iteration": 4,
+      "transfer_window": [
+        6,
+        18
+      ],
+      "departure_shift_days": -0.42
+    },
+    {
+      "mode": "coherent",
+      "iteration": 5,
+      "transfer_window": [
+        33,
+        46
+      ],
+      "departure_shift_days": -0.42
+    },
+    {
+      "mode": "coherent",
+      "iteration": 6,
+      "transfer_window": [
+        17,
+        48
+      ],
+      "departure_shift_days": -0.93
+    },
+    {
+      "mode": "coherent",
+      "iteration": 7,
+      "transfer_window": [
+        25,
+        48
+      ],
+      "departure_shift_days": -0.93
+    },
+    {
+      "mode": "coherent",
+      "iteration": 8,
+      "transfer_window": [
+        37,
+        48
+      ],
+      "departure_shift_days": -0.93
+    }
+  ],
+  "elapsed_seconds": 14.071296393998637
+}

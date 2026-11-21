@@ -1,0 +1,878 @@
+{
+  "mode": "mesh",
+  "baseline": {
+    "fitness": [
+      112.9949562939285,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T130436Z_311bfed4_0009.json",
+  "best_days": 112.9949562939285,
+  "best_changed_order_days": null,
+  "stop": "selective fine-mesh sweep complete",
+  "counts": {
+    "attempts": 14,
+    "checked": 28,
+    "feasible": 28
+  },
+  "attempts": [
+    {
+      "mode": "mesh",
+      "iteration": 0,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0,
+      "focused_edges": [
+        [
+          24,
+          6
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          22,
+          13
+        ],
+        [
+          5,
+          47
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 1,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          24,
+          6
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          22,
+          13
+        ],
+        [
+          5,
+          47
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          29,
+          45
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 2,
+      "fine_grid_days": 0.0078125,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          9,
+          37
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          38,
+          24
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": true,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 3,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0009765625,
+      "focused_edges": [
+        [
+          9,
+          37
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          38,
+          24
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          29,
+          45
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 4,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0,
+      "focused_edges": [
+        [
+          44,
+          5
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          25,
+          22
+        ],
+        [
+          35,
+          26
+        ],
+        [
+          47,
+          36
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 5,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          44,
+          5
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          25,
+          22
+        ],
+        [
+          35,
+          26
+        ],
+        [
+          47,
+          36
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          29,
+          45
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": true,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 6,
+      "fine_grid_days": 0.0078125,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          36,
+          31
+        ],
+        [
+          6,
+          35
+        ],
+        [
+          48,
+          9
+        ],
+        [
+          30,
+          29
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 7,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0009765625,
+      "focused_edges": [
+        [
+          36,
+          31
+        ],
+        [
+          6,
+          35
+        ],
+        [
+          48,
+          9
+        ],
+        [
+          30,
+          29
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          29,
+          45
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 8,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0,
+      "focused_edges": [
+        [
+          19,
+          43
+        ],
+        [
+          43,
+          0
+        ],
+        [
+          39,
+          8
+        ],
+        [
+          0,
+          39
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": true,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 9,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          19,
+          43
+        ],
+        [
+          43,
+          0
+        ],
+        [
+          39,
+          8
+        ],
+        [
+          0,
+          39
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          29,
+          45
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 10,
+      "fine_grid_days": 0.0078125,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          29,
+          45
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 11,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0009765625,
+      "focused_edges": [
+        [
+          29,
+          45
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": true,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 12,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.0,
+      "focused_edges": [
+        [
+          5,
+          47
+        ],
+        [
+          9,
+          37
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          38,
+          24
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          31,
+          30
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "mesh",
+      "iteration": 13,
+      "fine_grid_days": 0.00390625,
+      "fine_phase_days": 0.001953125,
+      "focused_edges": [
+        [
+          5,
+          47
+        ],
+        [
+          9,
+          37
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          38,
+          24
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          29,
+          45
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          27
+        ],
+        [
+          27,
+          32
+        ]
+      ],
+      "local_arc_refinement": false,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    }
+  ],
+  "anchor_seeds": [
+    "results/esa/easy_focus_20261121T130313Z_86c141b2_0005.json"
+  ],
+  "anchor_atlases": [
+    "results/esa/easy_focus_20261121T130313Z_86c141b2_summary.json"
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 197.09849634500097
+}

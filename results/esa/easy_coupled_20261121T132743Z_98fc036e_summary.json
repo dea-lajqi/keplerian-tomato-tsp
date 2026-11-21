@@ -1,0 +1,731 @@
+{
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_focus_20261121T131107Z_9a9af22e_0005.json",
+  "baseline": {
+    "fitness": [
+      112.84601854004677,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "no new feasible schedules",
+  "best_official_days": 112.84601854004677,
+  "counts": {
+    "block_objective_evaluations": 188016,
+    "feasible_blocks": 75,
+    "esa_checks": 1319,
+    "esa_feasible": 1135,
+    "esa_rejected": 184,
+    "duplicates": 753,
+    "changed_order": 1
+  },
+  "attempts": [
+    {
+      "mode": "block",
+      "iteration": 0,
+      "transfer_window": [
+        25,
+        31
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19,
+        43
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 1,
+      "transfer_window": [
+        26,
+        30
+      ],
+      "release_day": 68.25390625,
+      "internal_order": [
+        37,
+        11,
+        4,
+        17,
+        19
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 114.15625
+    },
+    {
+      "mode": "block",
+      "iteration": 2,
+      "transfer_window": [
+        17,
+        23
+      ],
+      "release_day": 48.95934561936513,
+      "internal_order": [
+        31,
+        30,
+        29,
+        45,
+        15,
+        28,
+        1
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 3,
+      "transfer_window": [
+        24,
+        31
+      ],
+      "release_day": 61.30859375,
+      "internal_order": [
+        48,
+        9,
+        37,
+        17,
+        11,
+        4,
+        19,
+        43
+      ]
+    },
+    {
+      "mode": "block",
+      "iteration": 4,
+      "transfer_window": [
+        18,
+        25
+      ],
+      "release_day": 49.98046875,
+      "internal_order": [
+        30,
+        29,
+        45,
+        15,
+        28,
+        1,
+        48,
+        9
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 5,
+      "transfer_window": [
+        7,
+        12
+      ],
+      "release_day": 7.132004109069323,
+      "internal_order": [
+        2,
+        25,
+        22,
+        13,
+        20,
+        40
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 6,
+      "transfer_window": [
+        29,
+        35
+      ],
+      "release_day": 69.55078125,
+      "internal_order": [
+        4,
+        19,
+        43,
+        0,
+        39,
+        8,
+        38
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 7,
+      "transfer_window": [
+        34,
+        42
+      ],
+      "release_day": 77.64453125,
+      "internal_order": [
+        8,
+        38,
+        24,
+        6,
+        35,
+        26,
+        21,
+        7,
+        3
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 8,
+      "transfer_window": [
+        25,
+        30
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 9,
+      "transfer_window": [
+        40,
+        47
+      ],
+      "release_day": 103.4296875,
+      "internal_order": [
+        21,
+        7,
+        3,
+        33,
+        42,
+        14,
+        32,
+        27
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 10,
+      "transfer_window": [
+        25,
+        31
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19,
+        43
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 11,
+      "transfer_window": [
+        26,
+        30
+      ],
+      "release_day": 68.25390625,
+      "internal_order": [
+        37,
+        11,
+        17,
+        4,
+        19
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 12,
+      "transfer_window": [
+        17,
+        23
+      ],
+      "release_day": 48.95934561936513,
+      "internal_order": [
+        31,
+        30,
+        29,
+        45,
+        15,
+        28,
+        1
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 13,
+      "transfer_window": [
+        24,
+        31
+      ],
+      "release_day": 61.30859375,
+      "internal_order": [
+        48,
+        9,
+        37,
+        11,
+        4,
+        17,
+        19,
+        43
+      ]
+    },
+    {
+      "mode": "block",
+      "iteration": 14,
+      "transfer_window": [
+        18,
+        25
+      ],
+      "release_day": 49.98046875,
+      "internal_order": [
+        30,
+        29,
+        45,
+        15,
+        28,
+        1,
+        48,
+        9
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 15,
+      "transfer_window": [
+        7,
+        12
+      ],
+      "release_day": 7.132004109069323,
+      "internal_order": [
+        2,
+        25,
+        22,
+        13,
+        20,
+        40
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 16,
+      "transfer_window": [
+        29,
+        35
+      ],
+      "release_day": 69.55078125,
+      "internal_order": [
+        4,
+        19,
+        43,
+        0,
+        39,
+        8,
+        38
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 17,
+      "transfer_window": [
+        34,
+        42
+      ],
+      "release_day": 77.64453125,
+      "internal_order": [
+        8,
+        38,
+        24,
+        6,
+        35,
+        26,
+        21,
+        7,
+        3
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 18,
+      "transfer_window": [
+        25,
+        30
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 19,
+      "transfer_window": [
+        40,
+        47
+      ],
+      "release_day": 103.4296875,
+      "internal_order": [
+        21,
+        7,
+        3,
+        33,
+        42,
+        14,
+        32,
+        27
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 20,
+      "transfer_window": [
+        25,
+        31
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19,
+        43
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 21,
+      "transfer_window": [
+        26,
+        30
+      ],
+      "release_day": 68.25390625,
+      "internal_order": [
+        37,
+        4,
+        17,
+        11,
+        19
+      ]
+    },
+    {
+      "mode": "block",
+      "iteration": 22,
+      "transfer_window": [
+        17,
+        23
+      ],
+      "release_day": 48.95934561936513,
+      "internal_order": [
+        31,
+        30,
+        29,
+        45,
+        15,
+        28,
+        1
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 23,
+      "transfer_window": [
+        24,
+        31
+      ],
+      "release_day": 61.30859375,
+      "internal_order": [
+        48,
+        9,
+        37,
+        11,
+        17,
+        4,
+        19,
+        43
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 24,
+      "transfer_window": [
+        18,
+        25
+      ],
+      "release_day": 49.98046875,
+      "internal_order": [
+        30,
+        29,
+        45,
+        15,
+        28,
+        1,
+        48,
+        9
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 25,
+      "transfer_window": [
+        7,
+        12
+      ],
+      "release_day": 7.132004109069323,
+      "internal_order": [
+        2,
+        25,
+        22,
+        13,
+        20,
+        40
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 26,
+      "transfer_window": [
+        29,
+        35
+      ],
+      "release_day": 69.55078125,
+      "internal_order": [
+        4,
+        19,
+        43,
+        0,
+        39,
+        8,
+        38
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 27,
+      "transfer_window": [
+        34,
+        42
+      ],
+      "release_day": 77.64453125,
+      "internal_order": [
+        8,
+        38,
+        24,
+        6,
+        35,
+        26,
+        21,
+        7,
+        3
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 28,
+      "transfer_window": [
+        25,
+        30
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19
+      ],
+      "maximum_depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "block",
+      "iteration": 29,
+      "transfer_window": [
+        40,
+        47
+      ],
+      "release_day": 103.4296875,
+      "internal_order": [
+        21,
+        7,
+        3,
+        33,
+        42,
+        14,
+        32,
+        27
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 30,
+      "transfer_window": [
+        25,
+        31
+      ],
+      "release_day": 63.54296875,
+      "internal_order": [
+        9,
+        37,
+        11,
+        17,
+        4,
+        19,
+        43
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 31,
+      "transfer_window": [
+        26,
+        30
+      ],
+      "release_day": 68.25390625,
+      "internal_order": [
+        37,
+        4,
+        11,
+        17,
+        19
+      ]
+    },
+    {
+      "mode": "block",
+      "iteration": 32,
+      "transfer_window": [
+        17,
+        23
+      ],
+      "release_day": 48.95934561936513,
+      "internal_order": [
+        31,
+        30,
+        29,
+        45,
+        15,
+        28,
+        1
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 33,
+      "transfer_window": [
+        24,
+        31
+      ],
+      "release_day": 61.30859375,
+      "internal_order": [
+        48,
+        9,
+        37,
+        4,
+        17,
+        11,
+        19,
+        43
+      ]
+    },
+    {
+      "mode": "block",
+      "iteration": 34,
+      "transfer_window": [
+        18,
+        25
+      ],
+      "release_day": 49.98046875,
+      "internal_order": [
+        30,
+        29,
+        45,
+        15,
+        28,
+        1,
+        48,
+        9
+      ],
+      "maximum_depth": 48
+    },
+    {
+      "mode": "block",
+      "iteration": 35,
+      "transfer_window": [
+        7,
+        12
+      ],
+      "release_day": 7.132004109069323,
+      "internal_order": [
+        2,
+        25,
+        22,
+        13,
+        20,
+        40
+      ],
+      "maximum_depth": 48
+    }
+  ],
+  "elapsed_seconds": 305.9678072989991
+}

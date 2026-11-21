@@ -1,0 +1,214 @@
+{
+  "mode": "recombine",
+  "baseline": {
+    "fitness": [
+      112.84601854012966,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T130859Z_a9f35769_0004.json",
+  "best_days": 112.84601854004677,
+  "best_changed_order_days": 112.84601854004677,
+  "stop": "anchor recombination sweep complete",
+  "counts": {
+    "attempts": 20,
+    "checked": 280,
+    "feasible": 248,
+    "records": 5,
+    "rejected": 32,
+    "changed_order": 111
+  },
+  "attempts": [
+    {
+      "mode": "recombine",
+      "iteration": 0,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "parent_order_index": 0,
+      "depth": 48,
+      "best_accepted": 112.84601854012966
+    },
+    {
+      "mode": "recombine",
+      "iteration": 1,
+      "grid_days": 0.015625,
+      "phase_days": 0.0078125,
+      "parent_order_index": 0,
+      "depth": 48,
+      "best_accepted": 112.84601854012946
+    },
+    {
+      "mode": "recombine",
+      "iteration": 2,
+      "grid_days": 0.015625,
+      "phase_days": 0.0,
+      "parent_order_index": 0,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 3,
+      "grid_days": 0.0078125,
+      "phase_days": 0.00390625,
+      "parent_order_index": 0,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 4,
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "parent_order_index": 0,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 5,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "parent_order_index": 1,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 6,
+      "grid_days": 0.015625,
+      "phase_days": 0.0078125,
+      "parent_order_index": 1,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 7,
+      "grid_days": 0.015625,
+      "phase_days": 0.0,
+      "parent_order_index": 1,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 8,
+      "grid_days": 0.0078125,
+      "phase_days": 0.00390625,
+      "parent_order_index": 1,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 9,
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "parent_order_index": 1,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 10,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "parent_order_index": 2,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 11,
+      "grid_days": 0.015625,
+      "phase_days": 0.0078125,
+      "parent_order_index": 2,
+      "depth": 48
+    },
+    {
+      "mode": "recombine",
+      "iteration": 12,
+      "grid_days": 0.015625,
+      "phase_days": 0.0,
+      "parent_order_index": 2,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 13,
+      "grid_days": 0.0078125,
+      "phase_days": 0.00390625,
+      "parent_order_index": 2,
+      "depth": 48
+    },
+    {
+      "mode": "recombine",
+      "iteration": 14,
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "parent_order_index": 2,
+      "depth": 48,
+      "best_accepted": 112.9949562939285
+    },
+    {
+      "mode": "recombine",
+      "iteration": 15,
+      "grid_days": 0.03125,
+      "phase_days": 0.0,
+      "parent_order_index": 3,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 16,
+      "grid_days": 0.015625,
+      "phase_days": 0.0078125,
+      "parent_order_index": 3,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 17,
+      "grid_days": 0.015625,
+      "phase_days": 0.0,
+      "parent_order_index": 3,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 18,
+      "grid_days": 0.0078125,
+      "phase_days": 0.00390625,
+      "parent_order_index": 3,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    },
+    {
+      "mode": "recombine",
+      "iteration": 19,
+      "grid_days": 0.03125,
+      "phase_days": 0.0078125,
+      "parent_order_index": 3,
+      "depth": 48,
+      "best_accepted": 112.84601854004677
+    }
+  ],
+  "anchor_seeds": [
+    "results/esa/easy_focus_20261121T130313Z_e97d8883_0008.json",
+    "results/esa/easy_focus_20261121T130436Z_311bfed4_0009.json"
+  ],
+  "anchor_atlases": [
+    "results/esa/easy_focus_20261121T130313Z_86c141b2_summary.json"
+  ],
+  "flight_atlas": [],
+  "elapsed_seconds": 62.09414498100159
+}

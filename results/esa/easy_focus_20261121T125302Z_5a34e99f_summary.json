@@ -1,0 +1,645 @@
+{
+  "mode": "joint",
+  "baseline": {
+    "fitness": [
+      117.0302687946843,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_global_20261121T120259Z_619ef74b_0003.json",
+  "best_days": 117.03026706876435,
+  "best_changed_order_days": null,
+  "stop": "stagnation",
+  "counts": {
+    "attempts": 103,
+    "checked": 932,
+    "feasible": 786,
+    "records": 3,
+    "rejected": 146
+  },
+  "attempts": [
+    {
+      "mode": "joint",
+      "iteration": 0,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879305
+    },
+    {
+      "mode": "joint",
+      "iteration": 1,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879564
+    },
+    {
+      "mode": "joint",
+      "iteration": 2,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 3,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 4,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 5,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 6,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879574
+    },
+    {
+      "mode": "joint",
+      "iteration": 7,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 8,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 9,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879562
+    },
+    {
+      "mode": "joint",
+      "iteration": 10,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 11,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 12,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879578
+    },
+    {
+      "mode": "joint",
+      "iteration": 13,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 14,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 15,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 16,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879575
+    },
+    {
+      "mode": "joint",
+      "iteration": 17,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 18,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 19,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879564
+    },
+    {
+      "mode": "joint",
+      "iteration": 20,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706878964
+    },
+    {
+      "mode": "joint",
+      "iteration": 21,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 22,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 23,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879562
+    },
+    {
+      "mode": "joint",
+      "iteration": 24,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 25,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 26,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879554
+    },
+    {
+      "mode": "joint",
+      "iteration": 27,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879552
+    },
+    {
+      "mode": "joint",
+      "iteration": 28,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706876435
+    },
+    {
+      "mode": "joint",
+      "iteration": 29,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 30,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 31,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 32,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 33,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 34,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 35,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 36,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706877718
+    },
+    {
+      "mode": "joint",
+      "iteration": 37,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 38,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879473
+    },
+    {
+      "mode": "joint",
+      "iteration": 39,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879564
+    },
+    {
+      "mode": "joint",
+      "iteration": 40,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 41,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 42,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 43,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879456
+    },
+    {
+      "mode": "joint",
+      "iteration": 44,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706878833
+    },
+    {
+      "mode": "joint",
+      "iteration": 45,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706877293
+    },
+    {
+      "mode": "joint",
+      "iteration": 46,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 47,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 48,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879574
+    },
+    {
+      "mode": "joint",
+      "iteration": 49,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 50,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 51,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.0302670687941
+    },
+    {
+      "mode": "joint",
+      "iteration": 52,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 53,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 54,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 55,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 56,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879581
+    },
+    {
+      "mode": "joint",
+      "iteration": 57,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 58,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 59,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 60,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 61,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 62,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879432
+    },
+    {
+      "mode": "joint",
+      "iteration": 63,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 64,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.0302670687958
+    },
+    {
+      "mode": "joint",
+      "iteration": 65,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 66,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 67,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 68,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879574
+    },
+    {
+      "mode": "joint",
+      "iteration": 69,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 70,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 71,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 72,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 73,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 74,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 75,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879574
+    },
+    {
+      "mode": "joint",
+      "iteration": 76,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879574
+    },
+    {
+      "mode": "joint",
+      "iteration": 77,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 78,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879574
+    },
+    {
+      "mode": "joint",
+      "iteration": 79,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 80,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879575
+    },
+    {
+      "mode": "joint",
+      "iteration": 81,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.0302670687957
+    },
+    {
+      "mode": "joint",
+      "iteration": 82,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879567
+    },
+    {
+      "mode": "joint",
+      "iteration": 83,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 84,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879578
+    },
+    {
+      "mode": "joint",
+      "iteration": 85,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 86,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879577
+    },
+    {
+      "mode": "joint",
+      "iteration": 87,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 88,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.0302670687907
+    },
+    {
+      "mode": "joint",
+      "iteration": 89,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 90,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 91,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 92,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 93,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 94,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879537
+    },
+    {
+      "mode": "joint",
+      "iteration": 95,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879571
+    },
+    {
+      "mode": "joint",
+      "iteration": 96,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879581
+    },
+    {
+      "mode": "joint",
+      "iteration": 97,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 98,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 99,
+      "arrival_regularization": 0.3,
+      "best_accepted": 117.03026706879565
+    },
+    {
+      "mode": "joint",
+      "iteration": 100,
+      "arrival_regularization": 0.0,
+      "best_accepted": 117.03026706879572
+    },
+    {
+      "mode": "joint",
+      "iteration": 101,
+      "arrival_regularization": 0.025,
+      "best_accepted": 117.03026706879568
+    },
+    {
+      "mode": "joint",
+      "iteration": 102,
+      "arrival_regularization": 0.1,
+      "best_accepted": 117.0302670687957
+    }
+  ],
+  "elapsed_seconds": 65.63121081999998
+}

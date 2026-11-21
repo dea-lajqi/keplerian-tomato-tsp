@@ -1,0 +1,412 @@
+{
+  "mode": "terminal",
+  "seed": "/mnt/c/Users/Dea Lajqi/OneDrive/Desktop/Viti i 3 - FIEK/Projects/keplerian-tomato-tsp/results/esa/easy_coupled_20261121T132814Z_f5743ddc_0001.json",
+  "baseline": {
+    "fitness": [
+      111.75601410476435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "elite_pool": [
+    {
+      "file": "easy_elite_20261121T134844Z_f0fefc4b_0001.json",
+      "days": 111.75601410472474,
+      "flight_days": 104.75178135157495,
+      "directed_edges_changed": 2,
+      "shell_crossings": [
+        [
+          23,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_global_20261121T120519Z_9fe9de3e_0001.json",
+      "days": 118.5,
+      "flight_days": 111.54428409827855,
+      "directed_edges_changed": 13,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_e97d8883_0008.json",
+      "days": 113.19029136546536,
+      "flight_days": 106.08993454067817,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125302Z_8203d875_0001.json",
+      "days": 117.03026706879305,
+      "flight_days": 109.41194825595673,
+      "directed_edges_changed": 10,
+      "shell_crossings": [
+        [
+          23,
+          10
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130313Z_86c141b2_0005.json",
+      "days": 114.3069094916195,
+      "flight_days": 107.12838296112379,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T125413Z_c5169852_0003.json",
+      "days": 116.00535136677631,
+      "flight_days": 108.95375635351324,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          11,
+          30
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T131107Z_9a9af22e_0005.json",
+      "days": 112.84601854004677,
+      "flight_days": 105.59629691606023,
+      "directed_edges_changed": 3,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_elite_20261121T135122Z_c57f988d_0001.json",
+      "days": 111.75601410476366,
+      "flight_days": 105.06989757127269,
+      "directed_edges_changed": 0,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          32
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130436Z_311bfed4_0009.json",
+      "days": 112.9949562939285,
+      "flight_days": 105.82428617944312,
+      "directed_edges_changed": 6,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "easy_focus_20261121T130038Z_58e3a3e5_0002.json",
+      "days": 113.5703125,
+      "flight_days": 106.4487817591289,
+      "directed_edges_changed": 9,
+      "shell_crossings": [
+        [
+          18,
+          10
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          14,
+          27
+        ]
+      ]
+    }
+  ],
+  "archived_files_validated": 88,
+  "stop": "no new feasible schedules",
+  "counts": {
+    "terminal_timing_passes": 66,
+    "esa_checks": 83,
+    "esa_feasible": 65,
+    "distinct_feasible": 56,
+    "deduplicated": 63,
+    "esa_rejected": 18,
+    "new_orders": 2
+  },
+  "best_official_days": 111.75601410472474,
+  "best_new_order": {
+    "days": 111.8853341892927,
+    "path": [
+      34,
+      23,
+      18,
+      10,
+      12,
+      46,
+      41,
+      2,
+      25,
+      22,
+      13,
+      20,
+      40,
+      44,
+      5,
+      47,
+      36,
+      31,
+      37,
+      30,
+      29,
+      45,
+      15,
+      28,
+      1,
+      48,
+      9,
+      11,
+      17,
+      4,
+      19,
+      43,
+      0,
+      39,
+      8,
+      38,
+      24,
+      6,
+      35,
+      26,
+      21,
+      7,
+      3,
+      33,
+      42,
+      14,
+      16,
+      27,
+      32
+    ],
+    "flight_days": 105.26601150293774,
+    "waiting_days": 6.619322686354963
+  },
+  "elapsed_seconds": 31.636576183002035,
+  "attempts": [
+    {
+      "mode": "terminal",
+      "iteration": 0,
+      "parent": "easy_elite_20261121T134844Z_f0fefc4b_0001.json",
+      "cut": 45,
+      "release_day": 110.78686803503462,
+      "grid_days": 0.00390625,
+      "phase_days": 0.0,
+      "best_accepted": 111.75601410472474,
+      "candidate_schedules": 2
+    },
+    {
+      "mode": "terminal",
+      "iteration": 1,
+      "parent": "easy_elite_20261121T134844Z_f0fefc4b_0001.json",
+      "cut": 44,
+      "release_day": 109.58269784585565,
+      "grid_days": 0.00390625,
+      "phase_days": 0.001953125,
+      "best_accepted": 111.8853341893078,
+      "candidate_schedules": 2
+    },
+    {
+      "mode": "terminal",
+      "iteration": 2,
+      "parent": "easy_elite_20261121T134844Z_f0fefc4b_0001.json",
+      "cut": 43,
+      "release_day": 108.48267641588251,
+      "grid_days": 0.001953125,
+      "phase_days": 0.0009765625,
+      "best_accepted": 111.75601410472474,
+      "candidate_schedules": 2
+    },
+    {
+      "mode": "terminal",
+      "iteration": 3,
+      "parent": "easy_elite_20261121T135122Z_c57f988d_0001.json",
+      "cut": 44,
+      "release_day": 109.5826978498507,
+      "grid_days": 0.0029296875,
+      "phase_days": 0.000732421875,
+      "best_accepted": 111.75601410472474,
+      "candidate_schedules": 2
+    },
+    {
+      "mode": "terminal",
+      "iteration": 4,
+      "parent": "easy_elite_20261121T134844Z_f0fefc4b_0001.json",
+      "cut": 42,
+      "release_day": 105.52183579340658,
+      "grid_days": 0.00390625,
+      "phase_days": 0.0029296875,
+      "best_accepted": 111.8853341892927,
+      "candidate_schedules": 2
+    },
+    {
+      "mode": "terminal",
+      "iteration": 5,
+      "parent": "easy_elite_20261121T134844Z_f0fefc4b_0001.json",
+      "cut": 45,
+      "release_day": 110.78686803503462,
+      "grid_days": 0.00390625,
+      "phase_days": 0.0,
+      "candidate_schedules": 0
+    },
+    {
+      "mode": "terminal",
+      "iteration": 6,
+      "parent": "elite release with precise terminal DP",
+      "cut": 44,
+      "release_day": 109.58269784585565,
+      "grid_days": 0.00390625,
+      "phase_days": 0.001953125,
+      "candidate_schedules": 0
+    },
+    {
+      "mode": "terminal",
+      "iteration": 7,
+      "parent": "elite release with precise terminal DP",
+      "cut": 43,
+      "release_day": 108.48267641588251,
+      "grid_days": 0.001953125,
+      "phase_days": 0.0009765625,
+      "candidate_schedules": 0
+    }
+  ]
+}

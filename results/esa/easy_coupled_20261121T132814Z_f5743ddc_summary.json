@@ -1,0 +1,89 @@
+{
+  "seed": "results/esa/easy_coupled_20261121T132608Z_d792ec17_0002.json",
+  "baseline": {
+    "fitness": [
+      111.76542812054207,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "stop": "distinct sweep complete",
+  "best_official_days": 111.75601410476435,
+  "counts": {
+    "adaptive_timing_passes": 8,
+    "esa_checks": 51,
+    "esa_feasible": 51,
+    "duplicates": 15,
+    "records": 1
+  },
+  "attempts": [
+    {
+      "mode": "timing",
+      "iteration": 0,
+      "grid_days": 0.0234375,
+      "grid_phase_days": 0.01171875,
+      "maximum_depth": 48,
+      "best_accepted": 111.76542812054207
+    },
+    {
+      "mode": "timing",
+      "iteration": 1,
+      "grid_days": 0.01953125,
+      "grid_phase_days": 0.0048828125,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "timing",
+      "iteration": 2,
+      "grid_days": 0.01171875,
+      "grid_phase_days": 0.005859375,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "timing",
+      "iteration": 3,
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.01171875,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "timing",
+      "iteration": 4,
+      "grid_days": 0.0078125,
+      "grid_phase_days": 0.001953125,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "timing",
+      "iteration": 5,
+      "grid_days": 0.013671875,
+      "grid_phase_days": 0.005126953125,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "timing",
+      "iteration": 6,
+      "grid_days": 0.009765625,
+      "grid_phase_days": 0.006103515625,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    },
+    {
+      "mode": "timing",
+      "iteration": 7,
+      "grid_days": 0.015625,
+      "grid_phase_days": 0.001953125,
+      "maximum_depth": 48,
+      "best_accepted": 111.75601410476435
+    }
+  ],
+  "elapsed_seconds": 144.16059045000293
+}

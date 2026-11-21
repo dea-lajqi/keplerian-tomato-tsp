@@ -1,0 +1,431 @@
+{
+  "mode": "joint",
+  "baseline": {
+    "fitness": [
+      114.3836385581547,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "valid": true
+  },
+  "seed": "results/esa/easy_focus_20261121T130313Z_e97d8883_0004.json",
+  "best_days": 114.3836385581547,
+  "best_changed_order_days": null,
+  "stop": "stagnation",
+  "counts": {
+    "attempts": 62,
+    "checked": 215,
+    "feasible": 186,
+    "rejected": 29
+  },
+  "attempts": [
+    {
+      "mode": "joint",
+      "iteration": 0,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855829056
+    },
+    {
+      "mode": "joint",
+      "iteration": 1,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 2,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855840852
+    },
+    {
+      "mode": "joint",
+      "iteration": 3,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841398
+    },
+    {
+      "mode": "joint",
+      "iteration": 4,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 5,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 6,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 7,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.015,
+      "best_accepted": 114.38363855840221
+    },
+    {
+      "mode": "joint",
+      "iteration": 8,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855841038
+    },
+    {
+      "mode": "joint",
+      "iteration": 9,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 10,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855839508
+    },
+    {
+      "mode": "joint",
+      "iteration": 11,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.3836385584146
+    },
+    {
+      "mode": "joint",
+      "iteration": 12,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841556
+    },
+    {
+      "mode": "joint",
+      "iteration": 13,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 14,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855840464
+    },
+    {
+      "mode": "joint",
+      "iteration": 15,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841399
+    },
+    {
+      "mode": "joint",
+      "iteration": 16,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 17,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 18,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 19,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.015,
+      "best_accepted": 114.38363855840996
+    },
+    {
+      "mode": "joint",
+      "iteration": 20,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855840822
+    },
+    {
+      "mode": "joint",
+      "iteration": 21,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 22,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 23,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855841237
+    },
+    {
+      "mode": "joint",
+      "iteration": 24,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841524
+    },
+    {
+      "mode": "joint",
+      "iteration": 25,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 26,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 27,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841382
+    },
+    {
+      "mode": "joint",
+      "iteration": 28,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 29,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 30,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 31,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.015,
+      "best_accepted": 114.38363855841183
+    },
+    {
+      "mode": "joint",
+      "iteration": 32,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855840521
+    },
+    {
+      "mode": "joint",
+      "iteration": 33,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 34,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 35,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855840876
+    },
+    {
+      "mode": "joint",
+      "iteration": 36,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841595
+    },
+    {
+      "mode": "joint",
+      "iteration": 37,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 38,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 39,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841068
+    },
+    {
+      "mode": "joint",
+      "iteration": 40,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 41,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 42,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 43,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.015,
+      "best_accepted": 114.3836385584112
+    },
+    {
+      "mode": "joint",
+      "iteration": 44,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855841133
+    },
+    {
+      "mode": "joint",
+      "iteration": 45,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 46,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855841142
+    },
+    {
+      "mode": "joint",
+      "iteration": 47,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855841176
+    },
+    {
+      "mode": "joint",
+      "iteration": 48,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841581
+    },
+    {
+      "mode": "joint",
+      "iteration": 49,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 50,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.0
+    },
+    {
+      "mode": "joint",
+      "iteration": 51,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841314
+    },
+    {
+      "mode": "joint",
+      "iteration": 52,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 53,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 54,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.015
+    },
+    {
+      "mode": "joint",
+      "iteration": 55,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.015,
+      "best_accepted": 114.38363855840532
+    },
+    {
+      "mode": "joint",
+      "iteration": 56,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.3836385584104
+    },
+    {
+      "mode": "joint",
+      "iteration": 57,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 58,
+      "arrival_regularization": 0.1,
+      "plane_sweep_flight_weight": 0.045
+    },
+    {
+      "mode": "joint",
+      "iteration": 59,
+      "arrival_regularization": 0.3,
+      "plane_sweep_flight_weight": 0.045,
+      "best_accepted": 114.38363855841385
+    },
+    {
+      "mode": "joint",
+      "iteration": 60,
+      "arrival_regularization": 0.0,
+      "plane_sweep_flight_weight": 0.0,
+      "best_accepted": 114.38363855841543
+    },
+    {
+      "mode": "joint",
+      "iteration": 61,
+      "arrival_regularization": 0.025,
+      "plane_sweep_flight_weight": 0.0
+    }
+  ],
+  "anchor_seeds": [],
+  "anchor_atlases": [],
+  "flight_atlas": [],
+  "elapsed_seconds": 60.75577588499982
+}
