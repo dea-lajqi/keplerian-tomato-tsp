@@ -34,10 +34,10 @@ def plane_gap(udp, a, b):
 
 
 def retime(grid, path, anchors, prefix=(), extra_edge=None, wait=4., flight=9.,
-           max_exceptions=None, fine_grid=None, flight_caps=None):
+           max_exceptions=None, fine_grid=None, flight_caps=None, observer=None, require_extra=None):
     """Reserve mandatory exceptions on the entire suffix before expanding labels."""
     pairs = tuple(zip(path, path[1:]))
-    required = [mandatory(grid, *pair) for pair in pairs]
+    required = [mandatory(grid, *pair) or pair==require_extra for pair in pairs]
     suffix_required = [0] * len(path)
     for i in range(len(pairs)-1, -1, -1):
         suffix_required[i] = suffix_required[i+1] + required[i]
@@ -67,7 +67,7 @@ def retime(grid, path, anchors, prefix=(), extra_edge=None, wait=4., flight=9.,
                     continue
                 extra = int(leg[4] > limit)
                 finish = arrival(leg)
-                if (extra and not allow) or finish > grid.horizon:
+                if (extra and not allow) or ((a,b)==require_extra and not extra) or finish > grid.horizon:
                     continue
                 count = used + extra
                 if count not in next_states or finish < next_states[count][0]:
@@ -79,11 +79,14 @@ def retime(grid, path, anchors, prefix=(), extra_edge=None, wait=4., flight=9.,
         for count, label in sorted(next_states.items()):
             if label[0] < earliest:
                 states[count], earliest = label, label[0]
+        if observer is not None:
+            for _, schedule in states.values():
+                observer(schedule[-1])
     return [schedule for _, schedule in sorted(states.values())], len(pairs)
 
 
 def refine_joint(udp, schedule, deadline, submit, weight, rng, perturb, flight_weight=0.,
-                 coherent_shift=None):
+                 coherent_shift=None, clock_objectives=(), finish_slack=0.):
     """Couple all epochs while differentiating each two-variable Lambert cost."""
     n = len(schedule)
     start = np.asarray([leg[2:4] for leg in schedule]).flatten()
@@ -102,6 +105,9 @@ def refine_joint(udp, schedule, deadline, submit, weight, rng, perturb, flight_w
     upper = np.minimum(udp.max_time, start + start_margin)
     weights = np.full(2*n, weight / n)
     weights[-2:] += 1.0
+    for index,priority in clock_objectives:
+        weights[2*index:2*index+2] += priority
+    finish_cap = arrival(schedule[-1])+finish_slack
     for i, (a,b) in enumerate(pairs):
         if 5.0 <= plane_gap(udp, a, b) <= 7.0 and schedule[i][4] <= udp.dv_threshold:
             weights[2*i+1] += flight_weight
@@ -136,7 +142,7 @@ def refine_joint(udp, schedule, deadline, submit, weight, rng, perturb, flight_w
         violation = constraint(x)
         if min(violation) < -8e-9 or min(chronology @ x) < -1e-6:
             return
-        if x[-2] + x[-1] > arrival(schedule[-1]) + 1e-7:
+        if x[-2] + x[-1] > finish_cap + 1e-7:
             return
         candidate = tuple((a, b, float(d), float(t), float(dv))
                           for (a, b), (d, t), dv in zip(pairs, x.reshape(n, 2), last_values))
@@ -152,10 +158,15 @@ def refine_joint(udp, schedule, deadline, submit, weight, rng, perturb, flight_w
         # nonlinear Lambert constraints are restored by the coupled solve.
         start[2*first:2*last:2] += offset
     start = np.clip(start, lower, upper)
+    constraints=[LinearConstraint(chronology, -8e-7, np.inf),
+                 {"type": "ineq", "fun": constraint, "jac": jacobian}]
+    if clock_objectives or finish_slack:
+        limit = np.zeros(2*n)
+        limit[-2:] = 1.
+        constraints.append(LinearConstraint(limit,0.,finish_cap))
     fit = minimize(lambda x: float(weights @ x), start, jac=lambda _: weights,
                    method="SLSQP", bounds=Bounds(lower, upper),
-                   constraints=[LinearConstraint(chronology, -8e-7, np.inf),
-                                {"type": "ineq", "fun": constraint, "jac": jacobian}],
+                   constraints=constraints,
                    callback=accept, options={"ftol": 5e-11, "maxiter": 55})
     accept(fit.x)
 
@@ -258,7 +269,7 @@ def neighborhood(grid, path, legs, anchors, left, width, beam, displacement,
     return list(orders)[:10], width
 
 
-def shortest_band(grid, a, b, low, high, max_flight):
+def shortest_band(grid, a, b, low, high, max_flight, limit=None):
     """Collect a normal short-flight anchor in a fixed departure band."""
     first = max(0, math.ceil(low/grid.step))
     last = math.floor(high/grid.step)
@@ -279,7 +290,7 @@ def shortest_band(grid, a, b, low, high, max_flight):
         magnitude = np.linalg.norm(normal, axis=2)
         bound = (np.abs(np.einsum("tdk,dk->td", normal, a_v))
                  + np.abs(np.einsum("tdk,tdk->td", normal, b_v)))
-        easy = grid.udp.dv_threshold
+        easy = grid.udp.dv_threshold if limit is None else limit
         possible = (bound <= (easy+9.)*magnitude) | (magnitude < 1e7)
         found = None
         for i, j in np.argwhere(possible):

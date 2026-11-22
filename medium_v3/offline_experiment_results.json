@@ -1,0 +1,34 @@
+{
+  "baseline_geometry_proxy": 3957.583383651218,
+  "shell_crossings": 5,
+  "trials_per_mode": 4000,
+  "random_seed": 2026,
+  "caution": "NOT ESA-valid results",
+  "operators": {
+    "adjacent": {
+      "unique_orders": 174,
+      "lower_geometric_proxy": 60,
+      "best_proxy_delta": -59.92293867952367
+    },
+    "twoopt": {
+      "unique_orders": 928,
+      "lower_geometric_proxy": 238,
+      "best_proxy_delta": -75.2952041386352
+    },
+    "insert": {
+      "unique_orders": 1639,
+      "lower_geometric_proxy": 391,
+      "best_proxy_delta": -119.41638078381902
+    },
+    "cluster-swap": {
+      "unique_orders": 1173,
+      "lower_geometric_proxy": 355,
+      "best_proxy_delta": -89.00448508928685
+    },
+    "bottleneck": {
+      "unique_orders": 2108,
+      "lower_geometric_proxy": 29,
+      "best_proxy_delta": -119.41638078381902
+    }
+  }
+}

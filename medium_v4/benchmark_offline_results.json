@@ -1,0 +1,30 @@
+{
+  "warning": "SYNTHETIC_FAKE_ORACLE_NOT_ESA",
+  "seed": "specified in benchmark_offline.py",
+  "results": {
+    "fixed_order": {
+      "trials": 18,
+      "full_fake_valid_candidates": 36,
+      "novel_fake_valid_orders": 0,
+      "faster_fake_valid_timing_candidates": 8,
+      "transfer_oracle_calls": 8546,
+      "seconds": 0.139
+    },
+    "joint_reorder": {
+      "trials": 18,
+      "full_fake_valid_candidates": 110,
+      "novel_fake_valid_orders": 13,
+      "faster_fake_valid_timing_candidates": 6,
+      "transfer_oracle_calls": 38694,
+      "seconds": 0.34
+    },
+    "last_crossing": {
+      "trials": 18,
+      "full_fake_valid_candidates": 18,
+      "novel_fake_valid_orders": 0,
+      "faster_fake_valid_timing_candidates": 18,
+      "transfer_oracle_calls": 185,
+      "seconds": 0.006
+    }
+  }
+}

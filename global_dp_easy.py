@@ -47,7 +47,7 @@ def plane_cost_bound(elements, mu):
 class Grid:
     """Search a time lattice, pruning with a lower bound on plane-change cost."""
 
-    def __init__(self, module, step, phase, deadline, refine=False, finish_day=None):
+    def __init__(self, module, step, phase, deadline, refine=False, finish_day=None, directional=False):
         self.module = module
         self.udp = module.udp
         self.step = step
@@ -55,11 +55,14 @@ class Grid:
         self.deadline = deadline
         self.refine = refine
         self.finish_day = finish_day
+        self.directional = directional
         self.horizon = self.udp.max_time if finish_day is None else finish_day
         self.stats = Counter()
         axes, eccentricities = self.udp.tomato_orbital_parameters[:, :2].T
         self.energies = -module.MU_MOON / (2 * axes)
         self.speed_limits = np.sqrt(module.MU_MOON * (1 + eccentricities) / (axes * (1 - eccentricities)))
+        self.z_speed = (np.sqrt(module.MU_MOON*axes*(1-eccentricities**2))
+                        *np.cos(self.udp.tomato_orbital_parameters[:,2])/(axes*(1+eccentricities)))
         self.plane_cost = plane_cost_bound(self.udp.tomato_orbital_parameters, module.MU_MOON)
         self.ephemeris = lru_cache(maxsize=130_000)(self._ephemeris)
         self.positions = {}
@@ -88,10 +91,11 @@ class Grid:
             self.positions[node] = np.asarray([self.ephemeris(node, tick) for tick in range(count)])
         return self.positions[node]
 
-    def lambert(self, r1, v1, r2, v2, flight):
+    def lambert(self, r1, v1, r2, v2, flight, senses=(False, True)):
         self.stats["lambert_samples"] += 1
         best = math.inf
-        for cw in (False, True):
+        for cw in senses:
+            self.stats["lambert_orientations"] += 1
             try:
                 sol = self.module.pk.lambert_problem(
                     r1, r2, flight * self.module.pk.DAY2SEC, self.module.MU_MOON, cw, self.udp.max_revs
@@ -112,6 +116,8 @@ class Grid:
         states_a, states_b = self.states(a), self.states(b)
         deps = np.arange(first, last + 1)
         a_r, a_v = states_a[deps].transpose(1, 0, 2)
+        if self.directional:
+            a_h = np.cross(a_r,a_v)/np.linalg.norm(a_r,axis=1)[:,None]
         record = [None, None]
         normal_limit = self.udp.dv_threshold
         special_limit = self.udp.dv_threshold_exception if allow_exception else normal_limit
@@ -136,12 +142,38 @@ class Grid:
             valid = (ends[:, None] > deps) & (ends[:, None] - deps <= duration_max)
             normal = np.cross(a_r, states_b[ends, 0, None, :])
             magnitude = np.linalg.norm(normal, axis=2)
-            cost = (np.abs(np.einsum("edk,dk->ed", normal, a_v))
-                    + np.abs(np.einsum("edk,ek->ed", normal, states_b[ends, 1])))
+            a_perp = np.einsum("edk,dk->ed", normal, a_v)
+            b_perp = np.einsum("edk,ek->ed", normal, states_b[ends, 1])
+            cost = np.abs(a_perp)+np.abs(b_perp)
             limit = normal_limit if record[1] else special_limit
             if self.refine:
                 limit += 14.0
             possible = valid & ((cost <= (limit + 1e-5) * magnitude) | (magnitude < 1e7))
+            static_senses=(False,True)
+            if self.directional:
+                # A burn of size d can alter h_z by at most r_apo*d.
+                # A Lambert direction with the wrong h_z sign must at
+                # least cancel the corresponding endpoint component.
+                za,zb=self.z_speed[a],self.z_speed[b]
+                static_senses=tuple(cw for cw,lower in (
+                    (False,max(0.,-za)+max(0.,-zb)),
+                    (True,max(0.,za)+max(0.,zb)),
+                ) if lower<=limit+1e-4)
+            dynamic_direction=self.directional and len(static_senses)==2
+            if not static_senses:
+                continue
+            if dynamic_direction:
+                b_r,b_v = states_b[ends].transpose(1,0,2)
+                b_h = np.cross(b_r,b_v)/np.linalg.norm(b_r,axis=1)[:,None]
+                at = np.einsum("edk,dk->ed",normal,a_h)
+                bt = np.einsum("edk,ek->ed",normal,b_h)
+                allowed_cost = (limit+1e-4)*magnitude
+                plus = (np.hypot(a_perp,np.minimum(0.,at))
+                        +np.hypot(b_perp,np.minimum(0.,bt)))<=allowed_cost
+                minus = (np.hypot(a_perp,np.maximum(0.,at))
+                         +np.hypot(b_perp,np.maximum(0.,bt)))<=allowed_cost
+                ambiguous = (magnitude<1e7) | (np.abs(normal[:,:,2])<1e-8*magnitude)
+                possible &= plus|minus|ambiguous
             self.stats["grid_cells"] += int(np.count_nonzero(valid))
             for ei, di in np.argwhere(possible):
                 if cost[ei, di] > (limit + 1e-5) * magnitude[ei, di] and magnitude[ei, di] >= 1e7:
@@ -154,7 +186,10 @@ class Grid:
                 r1, v1 = self.ephemeris(a, d)
                 r2, v2 = (self.ephemeris(b, e) if dep + flight == self.epoch(e)
                           else self.state_at(b, dep + flight))
-                dv = self.lambert(r1, v1, r2, v2, flight)
+                senses=static_senses
+                if dynamic_direction and not ambiguous[ei,di] and plus[ei,di]!=minus[ei,di]:
+                    senses=(bool(plus[ei,di])!=bool(normal[ei,di,2]>0.),)
+                dv = self.lambert(r1, v1, r2, v2, flight, senses)
                 if self.refine:
                     for category, threshold in enumerate((normal_limit, special_limit)):
                         if (category == 0 and not normal_possible) or (category == 1 and not allow_exception):
