@@ -47,6 +47,22 @@ class Benchmark(Search):
                 if self.target in zip(path,path[1:]) and self.allocation=={
                         l[:2] for l in self.archive[path] if l[4]>self.limit}:
                     yield path,self.allocation
+            if self.args.reconstruct:
+                state=json.loads((FILES/"small_v2/campaign_82402/state.json").read_text())
+                base=set(zip(self.seed_path,self.seed_path[1:]))
+                candidates=[]
+                for row in state["orders"]:
+                    path=tuple(row)
+                    edges=set(zip(path,path[1:]))
+                    if self.target not in edges or not self.allocation<=edges or path in self.archive:
+                        continue
+                    if any(not self.normal[a,b] for a,b in edges-self.allocation):
+                        continue
+                    changed=len(edges-base)
+                    candidates.append((changed+self.rng.random()*2.,path))
+                self.stats["resource_compatible_library_orders"]=len(candidates)
+                for _,path in sorted(candidates)[:self.args.proposals]:
+                    yield path,self.allocation
             return
         # An alternative receives the fifth exception only when the other
         # four are reserved by the geometry and the shell crossing order.
@@ -193,6 +209,7 @@ if __name__=="__main__":
     p.add_argument("--output",type=Path,required=True)
     p.add_argument("--mode",choices=("original","alternate"),required=True)
     p.add_argument("--edge",type=int,nargs=2,default=(24,6))
+    p.add_argument("--reconstruct",action="store_true")
     p.add_argument("--phase",type=float,default=.013)
     p.add_argument("--seed",type=int,default=88101)
     p.add_argument("--seconds",type=float,default=85.)
