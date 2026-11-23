@@ -224,3 +224,5 @@ __marimo__/
 /.kttsp-scratch/
 /results/.KTTSP_MEDIUM_*.tmp
 /results/KTTSP_MEDIUM_BEST_VERIFIED.tmp
+
+/results/esa/
